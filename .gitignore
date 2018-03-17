@@ -12,3 +12,6 @@ main.out
 main.synctex.gz
 main.thm
 main.toc
+main.synctex(busy)
+main.bbl
+main.blg

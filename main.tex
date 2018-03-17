@@ -32,24 +32,9 @@
 %% 符号对照表
 \input{data/denotation}
 
-
 %%% 正文部分
 \mainmatter
-\include{data/chap01}
-\include{data/chap02}
-
-
-%%% 其它部分
-\backmatter
-
-%% 本科生要这几个索引，研究生不要。选择性留下。
-% 插图索引
-\listoffigures
-% 表格索引
-\listoftables
-% 公式索引
-\listofequations
-
+\include{data/VRrobot}
 
 %% 参考文献
 % 注意：至少需要引用一篇参考文献，否则下面两行可能引起编译错误。
@@ -60,19 +45,4 @@
 % \bibliographystyle{thuthesis-author-year}
 \bibliography{ref/refs}
 
-
-%% 致谢
-\include{data/ack}
-
-%% 附录
-\begin{appendix}
-\input{data/appendix01}
-\end{appendix}
-
-%% 个人简历
-\include{data/resume}
-
-%% 本科生进行格式审查是需要下面这个表格，答辩可能不需要。选择性留下。
-% 综合论文训练记录表
-\includepdf[pages=-]{scan-record.pdf}
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  17 MAR 2018 22:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  17 MAR 2018 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2030,14 +2030,15 @@ File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 20.
  (./main.aux
-(./data/chap01.aux) (./data/chap02.aux) (./data/ack.aux) (./data/resume.aux))
+No file data/chap01.aux.
+No file data/chap02.aux.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 20.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 20
 .
-
-(c:/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (c:/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -2415,359 +2416,62 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 
 ]
-(./main.toc [3
-
-
-])
+(./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (./data/denotation.tex [4] [5
+ (./data/denotation.tex [3
 
 
-]) [6]
-\openout2 = `data/chap01.aux'.
+] [4
 
- (./data/chap01.tex
+
+]) [5]
+\openout2 = `data/VRrobot.aux'.
+
+ (./data/VRrobot.tex
 第1章
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 8.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.52437pt on input line 8.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 12.
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 12.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.64714pt on input line 15.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 16.
-(c:/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-\g__fontspec_family_KaiTi_GB2312_int=\count334
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "KaiTi_GB2312/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "KaiTi_GB2312/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "KaiTi_GB2312/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'KaiTi_GB2312(0)' created for font 'KaiTi_GB2312' with options
-. [Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"KaiTi_GB2312/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
- [1
+(Font)              scaled to size 12.64714pt on input line 6.
+) [1
 
 
 
-]
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'YouYuan' does not contain script 'CJK'.
-*************************************************
-\g__fontspec_family_YouYuan_int=\count335
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "YouYuan/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "YouYuan/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "YouYuan/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'YouYuan(0)' created for font 'YouYuan' with options
-. [Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"YouYuan/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'LiSu' does not contain script 'CJK'.
-*************************************************
-\g__fontspec_family_LiSu_int=\count336
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "LiSu/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "LiSu/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "LiSu/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'LiSu(0)' created for font 'LiSu' with options [Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"LiSu/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 11.74377pt on input line 68.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.045pt on input line 74.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 80.
-
-Underfull \hbox (badness 1253) in paragraph at lines 71--96
-\TU/SimSun(1)/m/n/12.045 个 \T1/pcr/m/n/12.045 \hlinewd\TU/SimSun(1)/m/n/12.045 
-。|  三 线 表 可 以 用 \T1/qhv/m/n/12.045 book-tabs \TU/SimSun(1)/m/n/12.045 提 供 的 \T1
-/pcr/m/n/12.045 \toprule\TU/SimSun(1)/m/n/12.045 、| \T1/pcr/m/n/12.045 \midrule
- \TU/SimSun(1)/m/n/12.045 和
- []
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.03374pt on input line 119.
-[2] [3] [4] [5] [6]
-Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
-nput line 346.
-Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 350.
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 358.
-Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
-input line 368.
- [7]
-Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 376.
-Package hyperref Info: bookmark level for unknown axiom defaults to 0 on input 
-line 397.
-Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 413.
- [8]
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 426.
-Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
-line 442.
-Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
-put line 453.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 460.
- [9]
-Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 470.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 474.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 474.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.0pt on input line 474.
-Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
-ut line 482.
-Package hyperref Info: bookmark level for unknown conjecture defaults to 0 on i
-nput line 485.
-Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
-t line 491.
- [10]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.03374pt on input line 561.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 5.0pt on input line 561.
- [11]) [12]
-\openout2 = `data/chap02.aux'.
-
- (./data/chap02.tex
-第2章
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 31.
-File: figures/thu-whole-logo.pdf Graphic file (type QTm)
-<use  "figures/thu-whole-logo.pdf" > [13
-
-
-
-]
-File: figures/thu-fig-logo.pdf Graphic file (type QTm)
- <use  "figures/thu-fig-logo.pdf" >
-File: figures/thu-text-logo.pdf Graphic file (type QTm)
-
-<use  "figures/thu-text-logo.pdf" >
-File: figures/thu-fig-logo.pdf Graphic file (type QTm)
- <use  "figures/thu-fig-logo.pdf" >
-File: figures/thu-text-logo.pdf Graphic file (type QTm)
-
-<use  "figures/thu-text-logo.pdf" > [14]
-File: figures/thu-whole-logo.pdf Graphic file (type QTm)
- <use  "figures/thu-whole-logo.pdf" >
-File: figures/thu-whole-logo.pdf Graphic file (type QTm)
-
-<use  "figures/thu-whole-logo.pdf" >) [15] (./main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
-
- [16
-
-
-
-
-] (./main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
-
-[17
-
-
-] (./main.loe)
-\tf@loe=\write7
-\openout7 = `main.loe'.
-
- (./main.bbl [18
-
-
-]
+] (./main.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.53937pt on input line 11.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 13.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 13.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.0pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 23.
- [19
-
-
-]) [20]
-\openout2 = `data/ack.aux'.
-
- (./data/ack.tex [21
+ [2
 
 
 
-]) [22
+])
+\tf@thm=\write5
+\openout5 = `main.thm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+ (./main.aux (./data/VRrobot.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 48.
 
 
-]
-(./data/appendix01.tex
-附录 A
-\c@currmpdefctr=\count337
-\c@endmpdefctr=\count338
-\c@mpdef=\count339
-Package hyperref Info: bookmark level for unknown mpdef defaults to 0 on input 
-line 36.
-\c@currmpdefopctr=\count340
-\c@endmpdefopctr=\count341
-Package hyperref Info: bookmark level for unknown mpdefop defaults to 0 on inpu
-t line 48.
-[23
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.04124pt on input line 99.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.06006pt on input line 99.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.07271pt on input line 99.
- [24]
-File: figures/thu-lib-logo.pdf Graphic file (type QTm)
- <use  "figures/thu-lib-logo.pdf" > [25]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sl' will be
-(Font)              scaled to size 12.045pt on input line 169.
- [26]
-附录 B
-[27
-
-]
-File: figures/thu-whole-logo.pdf Graphic file (type QTm)
- <use  "figures/thu-whole-logo.pdf" > [28]
-附录 C
-) [29
-
-]
-\openout2 = `data/resume.aux'.
-
- (./data/resume.tex [30
-
-
-
-]) [31]
-File: figures/scan-record.pdf Graphic file (type QTm)
- <use  "figures/scan-record.pdf" >
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf" >
-File: figures/scan-record.pdf Graphic file (type QTm)
- <use  "figures/scan-record.pdf"  page1>
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page1>
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page1>
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page1>
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page1> [32
-
-]
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page2>
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page2>
-File: figures/scan-record.pdf Graphic file (type QTm)
-
-<use  "figures/scan-record.pdf"  page2> [33]
-\tf@thm=\write8
-\openout8 = `main.thm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
- (./main.aux (./data/chap01.aux)
-(./data/chap02.aux) (./data/ack.aux) (./data/resume.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 35697 strings out of 493005
- 687798 string characters out of 6137955
- 721490 words of memory out of 5000000
- 39121 multiletter control sequences out of 15000+600000
- 190864 words of font info for 277 fonts, out of 8000000 for 9000
+ 34653 strings out of 493005
+ 640900 string characters out of 6137955
+ 694486 words of memory out of 5000000
+ 38156 multiletter control sequences out of 15000+600000
+ 117586 words of font info for 161 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 66i,23n,96p,10438b,785s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,12n,96p,10438b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (45 pages).
+Output written on main.pdf (14 pages).

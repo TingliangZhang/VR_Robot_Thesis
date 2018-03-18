@@ -409,6 +409,7 @@ OUTPUT data/VRrobot.aux
 INPUT data/VRrobot.tex
 INPUT data/VRrobot.tex
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
 INPUT main.bbl
 INPUT main.bbl
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm

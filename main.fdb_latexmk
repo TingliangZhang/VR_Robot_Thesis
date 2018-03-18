@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1521372632 "main.aux" "main.bbl" "main" 1521372644
+["bibtex main"] 1521375579 "main.aux" "main.bbl" "main" 1521375579
   "./thuthesis-numeric.bst" 1519970092 29070 9238ab6a53f805acac0a02bd63108986 ""
-  "data/VRrobot.aux" 1521372641 4224 019a6f76e9775c93c30b6d31ddb1d584 ""
-  "main.aux" 1521372641 2984 b1a6bd1f1c8d4bc932fc07791ee78601 ""
+  "data/VRrobot.aux" 1521375568 48 9cf1fe235cbf6c346b93ed4f6f5e10a3 ""
+  "main.aux" 1521375568 1216 daeef721455d2955c7176c94387845dc ""
   "ref/refs.bib" 1519970092 6857 c0ed314ef553f285bd01c0f074fba32f ""
   (generated)
-  "main.bbl"
   "main.blg"
+  "main.bbl"
 ["xdvipdfmx"] 1521372642 "main.xdv" "main.pdf" "main" 1521372644
   "main.xdv" 1521372641 117288 7a7a51eed5587d843fa69dda6f52f877 "xelatex"
   (generated)
@@ -187,10 +187,10 @@
   "thuthesis.cls" 1519970092 30859 888b3ef88a477d58031a94c6d882ecbb ""
   "thuthesis.sty" 1519970092 1622 433a987b19544bb151d6cb8c9a849792 ""
   (generated)
-  "main.log"
-  "main.out"
-  "main.xdv"
-  "main.thm"
   "data/VRrobot.aux"
-  "main.aux"
   "main.toc"
+  "main.thm"
+  "main.out"
+  "main.aux"
+  "main.xdv"
+  "main.log"

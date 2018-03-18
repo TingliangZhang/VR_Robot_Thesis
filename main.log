@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  18 MAR 2018 19:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  18 MAR 2018 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2131,6 +2131,9 @@ LaTeX Info: Redefining \nameref on input line 20.
 \openout3 = `main.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -2390,66 +2393,60 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
  (./data/VRrobot.tex
 第1章
-[1
+File: figures/CtrlPanel.jpg Graphic file (type QTm)
+<use  "figures/CtrlPanel.jpg" >
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 11.04124pt on input line 10.
+ [1
 
 
 
 ]
 第2章
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.64714pt on input line 16.
+(Font)              scaled to size 12.64714pt on input line 21.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 11.74377pt on input line 26.
+(Font)              scaled to size 11.74377pt on input line 31.
 [2
 
-]
+] [3]
 第3章
-[3
+[4
 
 ]
 第4章
-[4
+Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
+ut line 91.
+[5
 
-] [5]
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 113.
+ [6]
 第5章
-[6
+[7
 
 ]
 第6章
-) [7
+) [8
 
-] (./main.bbl
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 50.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 50.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 50.
- [8
-
-
-
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.53937pt on input line 141.
-)
+] (./main.bbl)
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./main.aux (./data/VRrobot.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 34583 strings out of 493005
- 636822 string characters out of 6137955
- 695875 words of memory out of 5000000
- 38085 multiletter control sequences out of 15000+600000
- 110870 words of font info for 153 fonts, out of 8000000 for 9000
+ 34512 strings out of 493005
+ 635141 string characters out of 6137955
+ 694893 words of memory out of 5000000
+ 38009 multiletter control sequences out of 15000+600000
+ 103499 words of font info for 138 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 66i,12n,96p,10438b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,12n,96p,10438b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (19 pages, 117288 bytes).
+Output written on main.pdf (18 pages).

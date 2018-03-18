@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  18 MAR 2018 20:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  18 MAR 2018 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2030,7 +2030,14 @@ File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 20.
  (./main.aux
-(./data/VRrobot.aux))
+(./data/VRrobot.aux
+
+LaTeX Warning: Label `fig:parallel1' multiply defined.
+
+
+LaTeX Warning: Label `fig:parallel2' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 20.
@@ -2393,7 +2400,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 File: figures/CtrlPanel.jpg Graphic file (type QTm)
 <use  "figures/CtrlPanel.jpg" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 10.
+(Font)              scaled to size 11.04124pt on input line 9.
  [1
 
 
@@ -2401,41 +2408,91 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 ]
 第2章
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.64714pt on input line 21.
+(Font)              scaled to size 12.64714pt on input line 20.
+File: figures/Cube.jpg Graphic file (type QTm)
+<use  "figures/Cube.jpg" >
+File: figures/Tri.jpg Graphic file (type QTm)
+ <use  "figures/Tri.jpg" >
+File: figures/google-jump.jpg Graphic file (type QTm)
+
+<use  "figures/google-jump.jpg" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 11.74377pt on input line 31.
+(Font)              scaled to size 11.74377pt on input line 50.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 37.
+(Font)              scaled to size 8.0pt on input line 56.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.52437pt on input line 37.
+(Font)              scaled to size 6.52437pt on input line 56.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 37.
+(Font)              scaled to size 9.03374pt on input line 56.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 37.
+(Font)              scaled to size 9.03374pt on input line 56.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 37.
+(Font)              scaled to size 5.0pt on input line 56.
+File: figures/movementPrime41_16.png Graphic file (type QTm)
+<use  "figures/movementPrime41_16.png" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
 [2
 
 ] [3]
-第3章
-[4
+File: figures/T-HR3_2.jpg Graphic file (type QTm)
+ <use  "figures/T-HR3_2.jpg" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
 
-]
-第4章
-Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 97.
+[4]
+第3章
+File: figures/HMD.jpg Graphic file (type QTm)
+<use  "figures/HMD.jpg" >
+File: figures/Google-Cardboard.jpg Graphic file (type QTm)
+ <use  "figures/Google-Cardboard.jpg" >
+File: figures/vive.PNG Graphic file (type QTm)
+
+<use  "figures/vive.PNG" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
 [5
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 119.
- [6]
-第5章
-[7
+] [6]
+第4章
+File: figures/Dobot0.png Graphic file (type QTm)
+<use  "figures/Dobot0.png" > [7
 
 ]
+File: figures/NAO.jpg Graphic file (type QTm)
+ <use  "figures/NAO.jpg" >
+Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
+ut line 159.
+ [8]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 181.
+ [9]
+第5章
+File: figures/car.png Graphic file (type QTm)
+<use  "figures/car.png" >
+File: figures/bump.png Graphic file (type QTm)
+ <use  "figures/bump.png" >
+File: figures/Date.png Graphic file (type QTm)
+
+<use  "figures/Date.png" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 212--213
+ [][] 
+ []
+
+[10
+
+] [11]
 第6章
-) [8
+) [12
 
 ] (./main.bbl)
 \tf@thm=\write5
@@ -2448,16 +2505,16 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34529 strings out of 493005
- 635392 string characters out of 6137955
- 694944 words of memory out of 5000000
- 38026 multiletter control sequences out of 15000+600000
+ 34560 strings out of 493005
+ 635821 string characters out of 6137955
+ 694132 words of memory out of 5000000
+ 38043 multiletter control sequences out of 15000+600000
  113439 words of font info for 150 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 66i,12n,96p,10438b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,12n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (18 pages).
+Output written on main.pdf (22 pages).

@@ -4,9 +4,8 @@
 
 
 \begin{figure}[htbp]
-\small
 \centering
-\includegraphics[width=14cm]{CtrlPanel.jpg}
+\includegraphics[width=10cm]{CtrlPanel.jpg}
 \caption{控制面板} 
 \label{fig:xfig1}
 \end{figure}
@@ -22,10 +21,30 @@
 
 目前三维场景重构需要很高的算力，分辨率低且不能保证实时性，目前较成熟的实时三维场景采集系统基本上都基于图像拼接技术：
 
+\begin{figure}
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=4cm]{Cube.jpg}
+  \caption{立方体拼接}
+  \label{fig:p1}
+\end{minipage}\hfill
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=4cm]{Tri.jpg}
+  \caption{金字塔形拼接}
+  \label{fig:p2}
+\end{minipage}
+\end{figure}
+
 就图像传输系统而言，要创建一个360度的视频，无论是使用一组特殊的摄像机同时记录360度的场景，还是将4个不同角度的GoPros图像拼接在一起。传入的360度视频文件是4K和更高，比特率可以超过50 Mb/s。而用于VR的3D 360度视频是其两倍，即每小时44 GB视频。如果要实时发送和接收这些图像信息，对带宽等网络环境要求非常高。另外无论采用立方体还是金字塔形拼接方式，拼接这些图像会消耗大量的算力，运算和传输延迟加起来都会达到2s以上，实时性和图像质量无法同时兼顾。
 
 就图像采集设备而言，以Google Jump为例，Google Jump使用24个GoPro，环绕一个圆形分布，考虑到GoPro单个相机的价格（2000-3000人民币）上述系统造价非常昂贵。
-
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=16cm]{google-jump.jpg}
+\caption{Google Jump} 
+\end{figure}
 
 \section{现有的机器人遥操作系统}
 \subsection{计算机指令或手柄控制}
@@ -35,7 +54,12 @@
 
 \subsection{OptiTrack}
 OptiTrack\footnote{\url{http://optitrack.com/}} 是基于一系列红外摄像机的动作捕捉系统解决方案，在操作者身上贴多个感光球，通过四周的十多个红外摄像机来计算每一个感光球的位置，从而获得人的动作数据。
-
+\begin{figure}[H]
+\small
+\centering
+\includegraphics[width=16cm]{movementPrime41_16.png}
+\caption{OptiTrack} 
+\end{figure}
 由于此解决方案需要至少12个高速红外摄像机和配套的处理系统，而一个红外摄像机售价4000-5000美元，整个系统的成本非常高，用其做机器人控制并不现实。
 
 \subsection{T-HR3}
@@ -46,6 +70,13 @@ T-HR3是一种远程机动系统，它通过外骨骼和数据手套将手，手
 
 另外，T-HR3需要一套昂贵且笨重的外骨骼，其应用场景十分受限。
 
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=16cm]{T-HR3_2.jpg}
+\caption{T-HR3} 
+\end{figure}
+
 \chapter{系统简介}
 
 该项目可分为两个子系统：图像显示系统及机器人控制系统。
@@ -54,6 +85,20 @@ T-HR3是一种远程机动系统，它通过外骨骼和数据手套将手，手
 本项目旨在提供一个具有较强立体感的实时全景图像，并解决现有系统的问题以及最大化的降低造价，以使远程操控者获得身临其境的体验。我们用ZED双目摄像头来采集实时场景信息，两个目采集到的图像对应到VR眼镜的两个显示屏中，而搭载ZED的多自由度舵机支架可随操纵者头部的转动而实时旋转，以保证双目摄像头的朝向和操作者双眼朝向一致，从而使操作者可以实时地看到各方位的立体场景。
 	
 此系统硬件部分仅由一个双目摄像头，转台，虚拟现实头盔组成，成本低，且部件较常见。双目摄像头可以由两个独立的摄像头替代，只需保证两摄像头间距和瞳距相似即可，随着虚拟现实技术的发展，分辨率较高的Vive VR头盔价格可以为普通人所接受，Google Cardboard售价低至10RMB，和智能手机配合使用。
+\begin{figure}
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=4cm]{HMD.jpg}
+  \caption{Vive VR头盔}
+  \label{fig:parallel1}
+\end{minipage}\hfill
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=4cm]{Google-Cardboard.jpg}
+  \caption{Google Cardboard}
+  \label{fig:parallel2}
+\end{minipage}
+\end{figure}
 
 因为只需要传输两个摄像头的图像，且并不需要复杂的运算，这套机械式的实时全景系统延迟很小。
 
@@ -63,8 +108,13 @@ T-HR3是一种远程机动系统，它通过外骨骼和数据手套将手，手
 
 此系统使得操作者能够利用自身的动作控制机器人的运动，符合人类的行为习惯，因而会带来良好的操作体验。
 
-VR 虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}包括Vive追踪器，Vive VR头盔和Lighting基站，官网售价5488RMB，远低于OptiTrack或T-HR3外骨骼部分的售价。而这套系统完全可以胜任大多数任务。而且Vive VR套件对环境要求很低，可以随时搭建操作环境。
-
+Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}包括Vive追踪器，Vive VR头盔和Lighting基站，官网售价5488RMB，远低于OptiTrack或T-HR3外骨骼部分的售价。而这套系统完全可以胜任大多数任务。而且Vive VR套件对环境要求很低，可以随时搭建操作环境。
+\begin{figure}[H]
+\small
+\centering
+\includegraphics[width=16cm]{vive.PNG}
+\caption{Vive虚拟现实套件} 
+\end{figure}
 
 \chapter{技术细节}
 
@@ -77,8 +127,23 @@ VR 虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}包括Vive
 
 \section{机械臂控制系统}
 
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=8cm]{Dobot0.png}
+\caption{DOBOT机械臂及通讯系统} 
+\end{figure}
+
+
 \section{NAO机器人控制系统}
 项目中为了控制机器人的手臂，采用逆运动学的理论，通过机器人手臂的端点结合手臂的参数来计算关节必要的旋转值来进行动作。由于NAO机器人手臂（不包括手指部分）的自由度是5个，因此在仅要设置手指尖端的目标坐标点的情况下，会出现手臂姿态不唯一的情况。通过筛选使得手臂各个关节与端点的坐标实现一一对应。
+
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=8cm]{NAO.jpg}
+\caption{NAO机器人} 
+\end{figure}
 
 对于机器人的姿态设定、手臂末端的设定涉及到机器人的控制理论。每个关节有相应的标准坐标系来解读链接和位置以及决定关节转换的基本程序。从参考点开始到第一个关节，再最终到最后一个关节完成转换后可以得到机械臂的转换矩阵。利用这个转换矩阵可以根据手臂末端的目标位置得到每个关节的转动参数。
 
@@ -124,19 +189,35 @@ VR 虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}包括Vive
 
 现阶段已完成一个由全向轮底盘移动的机械臂，平台上搭载多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动，以采集实时图像信息。
 
+\begin{figure}
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=6cm]{car.png}
+  \caption{全向轮底盘}
+  \label{fig:parallel1}
+\end{minipage}\hfill
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=6cm]{bump.png}
+  \caption{气泵和电磁阀组建的吸附装置}
+  \label{fig:parallel2}
+\end{minipage}
+\end{figure}
+
 我们可以实现读取追踪器和VR头盔绝对位置并通过串口发送。可以看到图片中输出了左手，右手和头盔的绝对坐标。我们改写了机械臂底层及接口，解决了串口控制卡顿的情况。现在已实现用遥控器-接收机控制系统，远程完成叠纸杯实验。另外，我们在机械臂末端加上了吸盘执行机构，使用气泵和电磁阀组建了一个吸附装置。四轮全向轮底盘也搭建完成。
+
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=16cm]{Date.png}
+\caption{追踪器和VR头盔绝对位置} 
+\end{figure}
 
 经测试，我们这套系统远程控制实时性很好，视频传输感受不到延迟，在VR眼睛中有很强的立体感。此外，控制较传统方式更简便，追踪器较外骨骼造价低。
 
 在之后的一段时间内，我们将调用追踪器位置信息，发送给下位机，实现追踪器控制机械臂的功能。
 
 另外我们刚刚借到了Now机器人，准备在操作者手脚上放置四个追踪器，以此来控制机器人的运动，如站立，行走等。
-
-
-\section{}
-
-\section{}
-
 
 
 \chapter{未来应用}

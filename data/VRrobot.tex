@@ -47,12 +47,13 @@
 \end{figure}
 
 \section{现有的机器人遥操作系统}
+
 \subsection{计算机指令或手柄控制}
 许多需要人工远程操控的机器人，其操作方式基本都是向控制面板或计算机输入指令而实现。工作人员需要熟悉各种操作平台，并需要长时间紧盯电脑屏幕进行操作，其交互体验不是很理想。
 
 另一些用户界面比较友好的机器人使用摇杆控制
 
-\subsection{OptiTrack}
+\subsection{OptiTrack动作捕捉系统}
 OptiTrack\footnote{\url{http://optitrack.com/}} 是基于一系列红外摄像机的动作捕捉系统解决方案，在操作者身上贴多个感光球，通过四周的十多个红外摄像机来计算每一个感光球的位置，从而获得人的动作数据。
 \begin{figure}[H]
 \small
@@ -62,7 +63,7 @@ OptiTrack\footnote{\url{http://optitrack.com/}} 是基于一系列红外摄像�
 \end{figure}
 由于此解决方案需要至少12个高速红外摄像机和配套的处理系统，而一个红外摄像机售价4000-5000美元，整个系统的成本非常高，用其做机器人控制并不现实。
 
-\subsection{T-HR3}
+\subsection{T-HR3人形机器人遥操作系统}
 
 T-HR3是一种远程机动系统，它通过外骨骼和数据手套将手，手臂和脚部动作映射到机器人。
 
@@ -76,6 +77,9 @@ T-HR3是一种远程机动系统，它通过外骨骼和数据手套将手，手
 \includegraphics[width=16cm]{T-HR3_2.jpg}
 \caption{T-HR3} 
 \end{figure}
+
+
+
 
 \chapter{系统简介}
 
@@ -117,16 +121,81 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(见图~\
 \label{vivekit}
 \end{figure}
 
-\chapter{技术细节}
+
+
+
+\chapter{项目展示}
+下面以时间顺序分阶段介绍我们的成果：
 
 \section{实时图像采集与显示系统}
-项目用于和Vive头盔进行互动的是一个ZED双目摄像头。ZED双目摄像头搭载在由两个数字舵机组成的双自由度平台上，用于与用户交互。
+实现了多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动，以采集实时图像信息。在这一阶段，我们的VR平台暂时使用使用谷歌折叠式纸板虚拟现实显示器。操作者头部姿态数据由VR头盔中的Android手机自身的陀螺仪获取，并发送到舵机的控制端。
 
-整个系统放置在4轮全向轮底盘上面， ZED双目摄像头采集到的图像，通过USB3.0发送给Nvidia Jetson TX1\footnote{\url{http://www.nvidia.cn/object/embedded-systems-dev-kits-modules-cn.html}}，TX1上运行Ubuntu，图像在TX1上处理后，使用UV4L服务（User space Video4Linux）\footnote{\url{https://www.linux-projects.org/uv4l/}}发送到局域网。同时，Vive VR头盔的姿态数据通过HTC串流盒发送到计算机中进行处理，处理后通过蓝牙串口发送到全向轮车上面的Arduino Mega 2560，控制双自由度数字舵机做出与Vive VR头盔同步的转动，使安装在双自由度数字舵机平台上的ZED双目摄像头的指向与Vive头盔实时相同。
+同时，在这一阶段，我们在机械臂末端加上了吸盘执行机构，使用气泵和电磁阀组建了一个吸附装置(见图~\ref{bump})。
 
-演示视频参见附件XXX
 
-\section{机械臂控制系统}
+\begin{figure}
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=6cm]{car.png}
+  \caption{全向轮底盘}
+  \label{car}
+\end{minipage}\hfill
+\begin{minipage}{0.48\textwidth}
+  \centering
+  \includegraphics[height=6cm]{bump.png}
+  \caption{气泵和电磁阀组建的吸附装置}
+  \label{bump}
+\end{minipage}
+\end{figure}
+
+
+同时我们改写了DOBOT机械臂底层及接口，解决了串口控制卡顿的问题。实现用遥控器-接收机控制系统，远程完成叠纸杯实验。
+
+\section{机械臂遥控与执行机构（Vive+DOBOT机械臂）}
+
+在这一阶段，我们完成了一个由全向轮底盘移动的机械臂(见图~\ref{car})，平台上搭载多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动，以采集实时图像信息。
+
+我们可以实现读取追踪器和VR头盔绝对位置并通过串口发送。可以看到图~(\ref{POS})中输出了左手，右手和头盔的绝对坐标。我们改写了机械臂底层及接口，解决了串口控制卡顿的情况。
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=16cm]{Date.png}
+\caption{追踪器和VR头盔绝对位置} 
+\label{POS}
+\end{figure}
+
+从而实现了用Vive追踪器远程控制机械臂，完成了叠纸杯实验。
+
+\section{机械臂遥控与执行机构（NAO人形机器人）}
+另外我们将此系统成功拓展到NAO人形机器人上，用追踪器控制机器人手臂的运动。\footnote{由于NAO自身的缺陷（易失去平衡），我们现阶段并没有加入腿部动作，且将手臂动作对称处理}
+
+成功完成Vive远程控制NAO的实验。
+
+
+
+\section{总结}
+
+经测试，我们这套系统远程控制实时性很好，视频传输延迟小于300ms，在VR眼镜中有很强的立体感，控制很方便，追踪器定位效果很好，而且具有很强的可迁移性。
+
+
+
+\chapter{技术细节}
+
+此系统实现了远程操作的完整功能，整个系统数据流向如图~\ref{pic}，硬件层面架构如图
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=16cm]{pic.pdf}
+\caption{数据流向示意图} 
+\label{pic}
+\end{figure}
+
+下面分三部分介绍技术细节。
+
+\section{实时图像采集与显示系统}
+ZED双目摄像头两个目采集到的图像分别投射到Vive头盔的两个显示屏中。ZED双目摄像头搭载在由两个数字舵机组成的双自由度平台上，以保证双目朝向与人眼朝向实时一致。
+
+整个系统放置在4轮全向轮底盘上面， ZED双目摄像头采集到的图像，通过USB3.0发送给Nvidia Jetson TX1\footnote{\url{http://www.nvidia.cn/object/embedded-systems-dev-kits-modules-cn.html}}，TX1上运行Ubuntu系统，图像在TX1上处理后，使用UV4L服务（User space Video4Linux）\footnote{\url{https://www.linux-projects.org/uv4l/}}发送到局域网。同时，Vive VR头盔的姿态数据通过HTC串流盒发送到计算机中进行处理，处理后通过蓝牙串口发送到全向轮车上面的下位机（Arduino Mega 2560），控制双自由度数字舵机做出与Vive VR头盔同步的转动，使安装在双自由度数字舵机平台上的ZED双目摄像头的指向与Vive头盔实时相同。
 
 \begin{figure}[htbp]
 \small
@@ -134,6 +203,104 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(见图~\
 \includegraphics[width=8cm]{Dobot0.png}
 \caption{DOBOT机械臂及通讯系统} 
 \end{figure}
+
+
+演示视频参见附件XXX
+
+
+\section{机械臂控制系统}
+
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=8cm]{dobott.png}
+\caption{DOBOT机械臂各自由度的示意图} 
+\label{dobott}
+\end{figure}
+
+图~\ref{dobott}为Dobot各自由度的示意图，机械臂在三维空间中的移动需要用到joint1、2、3，该三个自由度简化后的模型如下图所示。
+
+其中a,b分别为两个臂的长度，根据官方资料，$a=135mm$,$b=147mm$。$\alpha$、$\beta$、$\theta$ 为三个自由度对应的方位角。
+
+\begin{figure}[htbp]
+\small
+\centering
+\includegraphics[width=8cm]{dobotg.png}
+\caption{DOBOT机械臂末端坐标表示示意图} 
+\label{dobotg}
+\end{figure}
+
+由图~\ref{dobotg}可得，末端坐标的位置$(x,y,z)$可表示为：
+
+\begin{equation}
+x=(a \times sin(\alpha)+b \times cos(\beta)) \times cos(\theta)
+\end{equation}
+
+\begin{equation}
+y=(a \times sin(\alpha)+b \times cos(\beta)) \times sin(\theta)
+\end{equation}
+
+\begin{equation}
+z=a*cos(\alpha)-b*cos(\beta)
+\end{equation}
+
+可见，任意一组给定的x,y,z坐标都有唯一的一组$\alpha$、$\beta$、$\theta$与之对应，只要得到方位角与坐标之间的关系即可将机械臂移动到其可触及的任意位置。
+
+\begin{enumerate}
+\item 点对点移动：
+联立以上方程组，解得：
+\begin{displaymath}
+\alpha {\rm{ = arcsin(}}\frac{{{x^2} + {y^2} + {z^2} - {b^2}}}{{2a\sqrt {{x^2} + {y^2} + {z^2}} }}) - {\rm{arcsin(}}\frac{z}{{\sqrt {{x^2} + {y^2} + {z^2}} }})
+\end{displaymath}
+
+\begin{displaymath}
+\beta {\rm{ =  - arcsin(}}\frac{{{x^2} + {y^2} + {z^2} - {a^2}}}{{2b\sqrt {{x^2} + {y^2} + {z^2}} }}) + {\rm{arccos(}}\frac{z}{{\sqrt {{x^2} + {y^2} + {z^2}} }})
+\end{displaymath}
+
+由求出的$\alpha$、$\beta$可得到
+\begin{equation}
+\theta {\rm{ = }}\arcsin (\frac{y}{{a \times \sin \alpha  + b \times \cos \beta }})
+\end{equation}
+
+由此可将任意一点的$(x,y,z)$坐标用机械臂三个自由度的方位角$(\alpha，\beta，\theta)$来表示，，因而可通过各关节的转动而实现点对点运动。即初始坐标为$(x_1,y_1,z_1)$，目的坐标为$(x_2,y_2,z_2)$，则可用上述方法计算出相应的$(\alpha_1，\beta_1，\theta_1)$,$(\alpha_2，\beta_2，\theta_2)$,从而得知各关节需转动的角度。
+
+\item 基于运动方向的移动
+机械臂在$(x,y,z)$坐标系中各轴的速度分量也可由$(\alpha，\beta，\theta)$坐标系中的角速度表示：
+\begin{displaymath}
+\begin{array}{l}
+{v_x} = \frac{{dx}}{{dt}} = \frac{{\delta x}}{{\delta \alpha }}\frac{{\delta \alpha }}{{\delta t}} + \frac{{\delta x}}{{\delta \beta }}\frac{{\delta \beta }}{{\delta t}} + \frac{{\delta x}}{{\delta \theta }}\frac{{\delta \theta }}{{\delta t}} \\= a\cos \alpha \cos \theta {w_\alpha } - b\sin \beta \cos \theta  - (a\sin \alpha  + b\cos \beta )\sin \theta {w_\theta }\\
+
+\end{array}
+\end{displaymath}
+\begin{displaymath}
+{v_y} = a\cos \alpha \sin \theta {w_\alpha } - b\sin \beta \sin \theta  + (a\sin \alpha  + b\cos \beta )\cos \theta {w_\theta }
+\end{displaymath}
+\begin{displaymath}
+{v_z} =  - a\sin \alpha {w_\alpha } - b\cos \beta {w_\beta }
+\end{displaymath}
+用矩阵形式表示，即：
+\begin{equation}
+\left[ {\begin{array}{*{20}{c}}
+	{{v_x}}\\
+	{{v_y}}\\
+	{{v_z}}
+	\end{array}} \right] = \left[ {\begin{array}{*{20}{c}}
+	{a\cos \alpha \cos \theta }&{ - b\sin \beta \cos \theta }&{ - (a\sin \alpha  + b\cos \beta )\sin \theta }\\
+	{a\cos \alpha \sin \theta }&{ - b\sin \beta \sin \theta }&{(a\sin \alpha  + b\cos \beta )\cos \theta }\\
+	{ - a\sin \alpha }&{ - b\cos \beta }&0
+	\end{array}} \right]\left[ {\begin{array}{*{20}{c}}
+	{{w_\alpha }}\\
+	{{w_\beta }}\\
+	{{w_\theta }}
+	\end{array}} \right]
+\end{equation}
+
+简写为$\overrightarrow {V}  = {A}\overrightarrow w $
+
+由于任意时刻机械臂都有确定的方位角，故$A$为已知量，因而给定一组想要得到的$(v_x,v_y,v_z)$,则可通过计算$\overrightarrow w=A^-1\overrightarrow {V}$得到对应的角度。
+\end{enumerate}
+
+
 
 
 \section{NAO机器人控制系统}
@@ -185,70 +352,15 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(见图~\
 由以上方程并结合NAO的链接关节变量数据（在NAO官网上提供），我们可以根据目的点得到每个关节点旋转的角度，从而达到基于逆运动学控制机器人的机械臂。
 
 
-
-\chapter{项目展示}
-下面以时间顺序分阶段介绍我们的成果：
-
-\section{实时图像采集与显示系统}
-实现了多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动，以采集实时图像信息。在这一阶段，我们的VR平台暂时使用使用谷歌折叠式纸板虚拟现实显示器。操作者头部姿态数据由VR头盔中的Android手机自身的陀螺仪获取，并发送到舵机的控制端。
-
-同时，在这一阶段，我们在机械臂末端加上了吸盘执行机构，使用气泵和电磁阀组建了一个吸附装置(见图~\ref{bump})。
-
-
-\begin{figure}
-\begin{minipage}{0.48\textwidth}
-  \centering
-  \includegraphics[height=6cm]{car.png}
-  \caption{全向轮底盘}
-  \label{car}
-\end{minipage}\hfill
-\begin{minipage}{0.48\textwidth}
-  \centering
-  \includegraphics[height=6cm]{bump.png}
-  \caption{气泵和电磁阀组建的吸附装置}
-  \label{bump}
-\end{minipage}
-\end{figure}
-
-
-同时我们改写了DOBOT机械臂底层及接口，解决了串口控制卡顿的问题。实现用遥控器-接收机控制系统，远程完成叠纸杯实验。
-
-\section{机械臂遥控与执行机构（Vive+DOBOT机械臂）}
-
-在这一阶段，我们完成了一个由全向轮底盘移动的机械臂(见图~\ref{car})，平台上搭载多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动，以采集实时图像信息。
-
-我们可以实现读取追踪器和VR头盔绝对位置并通过串口发送。可以看到图~(\ref{POS})中输出了左手，右手和头盔的绝对坐标。我们改写了机械臂底层及接口，解决了串口控制卡顿的情况。
-\begin{figure}[htbp]
-\small
-\centering
-\includegraphics[width=16cm]{Date.png}
-\caption{追踪器和VR头盔绝对位置} 
-\label{POS}
-\end{figure}
-
-从而实现了用Vive追踪器远程控制机械臂，完成了叠纸杯实验。
-
-\section{机械臂遥控与执行机构（NAO人形机器人）}
-另外我们将此系统迁移到NAO人形机器人上，用追踪器控制机器人手臂的运动。\footnote{由于NAO自身的缺陷（易失去平衡），我们现阶段并没有加入腿部动作，且将手臂动作对称处理}
-
-成功完成Vive远程控制NAO的实验。
-
-\section{总结}
-
-经测试，我们这套系统远程控制实时性很好，视频传输感受不到延迟，在VR眼睛中有很强的立体感，控制很方便，追踪器定位效果很好，而且具有很强的可迁移性。
-
-
-
 \chapter{展望}
 
 \section{项目改进}
-
-给NAO编写行走程序
-
-通过采集每次操作的数据，可以使用增强学习训练机器人自主地执行任务。
-
-为了完善机器人的功能，可以加上手势识别元件实现机器人手部的动作。
-
+下一阶段，我们将从以下几个方面改进该系统：
+\begin{itemize}
+    \item 给NAO编写行走程序，加入闭环反馈，从软件层面提高NAO的稳定性
+    \item 通过采集每次操作的数据，使用增强学习训练机器人自主地执行任务。
+    \item 为了完善机器人的功能，可以加上手势识别元件实现机器人手部的动作。
+\end{itemize}
 
 \section{未来应用}
 此技术可以用于拆弹，救援，远程交互等领域。

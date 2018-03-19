@@ -11,7 +11,7 @@
 \contentsline {chapter}{\numberline {第4章}项目展示}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}实时图像采集与显示系统}{7}{section.4.1}
 \contentsline {section}{\numberline {4.2}机械臂遥控与执行机构（Vive+DOBOT机械臂）}{7}{section.4.2}
-\contentsline {section}{\numberline {4.3}机械臂遥控与执行机构（NAO人形机器人）}{9}{section.4.3}
+\contentsline {section}{\numberline {4.3}机器人遥控与执行机构（NAO人形机器人）}{9}{section.4.3}
 \contentsline {section}{\numberline {4.4}总结}{9}{section.4.4}
 \contentsline {chapter}{\numberline {第5章}技术细节}{10}{chapter.5}
 \contentsline {section}{\numberline {5.1}实时图像采集与显示系统}{10}{section.5.1}

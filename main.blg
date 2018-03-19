@@ -5,47 +5,44 @@ A level-1 auxiliary file: data/VRrobot.aux
 The style file: thuthesis-numeric.bst
 Database file #1: ref/refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty year in chuban2001
-Warning--empty year in oclc2000
-You've used 22 entries,
+You've used 6 entries,
             3389 wiz_defined-function locations,
-            912 strings with 8911 characters,
-and the built_in function-call counts, 94342 in all, are:
-= -- 12119
-> -- 8598
-< -- 8724
-+ -- 3369
-- -- 161
-* -- 616
-:= -- 11098
-add.period$ -- 65
-call.type$ -- 22
-change.case$ -- 45
-chr.to.int$ -- 2867
-cite$ -- 24
-duplicate$ -- 480
-empty$ -- 1258
-format.name$ -- 240
-if$ -- 27971
+            817 strings with 6893 characters,
+and the built_in function-call counts, 37074 in all, are:
+= -- 4895
+> -- 3498
+< -- 3527
++ -- 1283
+- -- 51
+* -- 202
+:= -- 4169
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 12
+chr.to.int$ -- 1153
+cite$ -- 6
+duplicate$ -- 147
+empty$ -- 357
+format.name$ -- 70
+if$ -- 11156
 int.to.chr$ -- 1
-int.to.str$ -- 23
+int.to.str$ -- 7
 missing$ -- 0
-newline$ -- 125
-num.names$ -- 69
-pop$ -- 222
+newline$ -- 41
+num.names$ -- 20
+pop$ -- 61
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 6
 quote$ -- 0
-skip$ -- 11725
+skip$ -- 4713
 stack$ -- 0
-substring$ -- 3423
-swap$ -- 25
-text.length$ -- 204
+substring$ -- 1352
+swap$ -- 8
+text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 256
-warning$ -- 2
-while$ -- 262
+type$ -- 73
+warning$ -- 0
+while$ -- 78
 width$ -- 0
-write$ -- 325
-(There were 2 warnings)
+write$ -- 103

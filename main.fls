@@ -439,12 +439,15 @@ INPUT figures/car.png
 INPUT figures/bump.png
 INPUT figures/Dobot0.png
 INPUT figures/Date.png
+INPUT figures/vivedobot.jpg
+INPUT figures/8NAO.jpg
 INPUT figures/stru.pdf
 INPUT figures/logic.pdf
 INPUT figures/dobott.png
 INPUT figures/dobotg.png
 INPUT figures/NAO.jpg
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT figures/robotic_arm_large.jpg
 INPUT main.bbl
 INPUT main.bbl
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
@@ -456,7 +459,6 @@ INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-sc-t1.tfm
 OUTPUT main.thm
 INPUT main.aux
 INPUT data/VRrobot.aux

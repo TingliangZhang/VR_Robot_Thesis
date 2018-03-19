@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  19 MAR 2018 21:10
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  19 MAR 2018 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2467,7 +2467,36 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 146--147
  [][] 
  []
 
-[6] [7]
+[6]
+\g__fontspec_family_KaiTi_GB2312_int=\count334
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi_GB2312/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi_GB2312/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi_GB2312/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'KaiTi_GB2312(0)' created for font 'KaiTi_GB2312' with options
+. [Script={CJK}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"KaiTi_GB2312/OT:script=hani;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+ [7]
 第4章
 File: figures/ZED0.png Graphic file (type QTm)
 <use  "figures/ZED0.png" >
@@ -2493,7 +2522,12 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 213--214
 
 [8
 
-] [9] [10] [11]
+] [9]
+File: figures/vivedobot.jpg Graphic file (type QTm)
+ <use  "figures/vivedobot.jpg" > [10]
+File: figures/8NAO.jpg Graphic file (type QTm)
+ <use  "figures/8NAO.jpg" >
+[11]
 第5章
 File: figures/stru.pdf Graphic file (type QTm)
 <use  "figures/stru.pdf" >
@@ -2507,7 +2541,7 @@ File: figures/dobott.png Graphic file (type QTm)
 File: figures/dobotg.png Graphic file (type QTm)
  <use  "figures/dobotg.png" >
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 290.
+ut line 307.
  [13] [14]
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
@@ -2521,31 +2555,30 @@ File: figures/NAO.jpg Graphic file (type QTm)
 
 <use  "figures/NAO.jpg" > [15] [16]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 402.
+(Font)              scaled to size 6.0pt on input line 419.
  [17]
 第6章
-) [18
+File: figures/robotic_arm_large.jpg Graphic file (type QTm)
+<use  "figures/robotic_arm_large.jpg" >) [18
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 50.
+(Font)              scaled to size 7.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 50.
- [19
-
-
-
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.53937pt on input line 141.
+(Font)              scaled to size 7.0pt on input line 48.
 )
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [20]
+ [19
+
+
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (./main.aux (./data/VRrobot.aux))
+ (./main.aux
+(./data/VRrobot.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
 
@@ -2554,12 +2587,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34759 strings out of 493005
- 642352 string characters out of 6137955
- 696742 words of memory out of 5000000
- 38234 multiletter control sequences out of 15000+600000
- 122870 words of font info for 161 fonts, out of 8000000 for 9000
+ 34777 strings out of 493005
+ 645245 string characters out of 6137955
+ 696239 words of memory out of 5000000
+ 38247 multiletter control sequences out of 15000+600000
+ 119832 words of font info for 161 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  66i,14n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (30 pages, 187964 bytes).
+Output written on main.xdv (29 pages, 183896 bytes).

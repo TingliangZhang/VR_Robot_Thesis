@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {2.2}现有的机器人遥操作系统}{2}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}计算机指令或手柄控制}{2}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}OptiTrack动作捕捉系统}{3}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}T-HR3人形机器人遥操作系统}{4}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}T-HR3人形机器人遥操作系统}{3}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {第3章}系统简介}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}VR远程监视系统}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Vive追踪器遥操作系统}{5}{section.3.2}
@@ -20,3 +20,4 @@
 \contentsline {chapter}{\numberline {第6章}展望}{16}{chapter.6}
 \contentsline {section}{\numberline {6.1}项目改进}{16}{section.6.1}
 \contentsline {section}{\numberline {6.2}未来应用}{16}{section.6.2}
+\contentsline {chapter}{参考文献}{17}{section*.24}

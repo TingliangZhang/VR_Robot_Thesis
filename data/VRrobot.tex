@@ -10,7 +10,7 @@
 \label{panal}
 \end{figure}
 
-现有的基于动作捕捉的遥操作系统如OptiTrack和机械外骨骼等，虽然用户体验很好，但是成本极高，依赖性强，无法大规模应用；
+现有的基于动作捕捉的遥操作系统如OptiTrack和机械外骨骼等，虽然用户体验很好，但是成本极高，依赖性强，无法大规模应用。
 
 现有的实时VR显示大多基于图像拼接，图像采集设备昂贵，实时性和图像质量无法同时兼顾，且对算力要求很高。
 
@@ -131,7 +131,7 @@ T-HR3(如图~\ref{thr})是一种远程机动系统，它通过外骨骼和数据
 \end{minipage}
 \end{figure}
 
-因为只需要传输两个摄像头的图像，且并不需要复杂的运算，这套机械式的实时全景系统延迟很小。
+因为只需要传输两个摄像头的图像，并不需要复杂的运算，这套机械式的实时全景系统延迟很小。
 
 \section{Vive追踪器遥操作系统}
 
@@ -148,14 +148,14 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
 \label{vivekit}
 \end{figure}
 
-
-{\kaishu （参见视频）}
-
 \chapter{项目展示}
+
+我们首先完成了实时图像采集与显示系统，调试至观看体验最佳；之后我们研究并改写Dobot指令集，设计并制做了机械臂末端执行机构，读取了Vive坐标，实现用Vive远程控制Dobot，并测试了整套系统；不久前，我们为验证此遥操作系统的可迁移性，用NAO人形机器人替换Dobot，最终完成了这一系统。
+
 下面以时间顺序分阶段介绍我们的成果：
 
 \section{实时图像采集与显示系统}
-实现了多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动{\kaishu （参见视频1）}，以采集实时图像信息。{\kaishu （参见视频2）}在这一阶段，我们的VR平台暂时使用使用Google Cardboard（谷歌折叠式纸板虚拟现实显示器）。操作者头部姿态数据由其中Android手机自身的陀螺仪获取，并发送到舵机的控制端控制舵机转动。
+实现了多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动{\kaishu （参见视频1）}，以采集实时图像信息(如图~\ref{zed})。{\kaishu （参见视频2）}在这一阶段，我们的VR平台暂时使用使用Google Cardboard（谷歌折叠式纸板虚拟现实显示器）(如图~\ref{card})。操作者头部姿态数据由其中Android手机自身的陀螺仪获取，并发送到舵机的控制端控制舵机转动。
 
 \begin{figure}
 \begin{minipage}{0.48\textwidth}
@@ -168,7 +168,7 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
   \centering
   \includegraphics[height=6cm]{Google-Cardboard.jpg}
   \caption{Google Cardboard}
-  \label{bump}
+  \label{card}
 \end{minipage}
 \end{figure}
 

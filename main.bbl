@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \providecommand{\href}[2]{\url{#2}}
@@ -6,46 +6,40 @@
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
 
-\bibitem[{IEEE Std 1363-2000}(2000)]{IEEE-1363}
-{IEEE Std 1363-2000}.
-\newblock {IEEE} standard specifications for public-key
-  cryptography\allowbreak[M].
-\newblock New York: IEEE, 2000
+\bibitem[Chamy\ et~al.(2017)Chamy, Dine, Rafeii, and Rafihi]{8125036}
+Chamy L~A, Dine M~S~E, Rafeii A~E~K~E, et~al.
+\newblock Infinity of controls with intelligent robot remote
+  control\allowbreak[C]//\allowbreak{}2017 Sensors Networks Smart and Emerging
+  Technologies (SENSET).
+\newblock 2017: 1--3.
 
-\bibitem[Kocher\ et~al.(1999)Kocher, Jaffe, and Jun]{kocher99}
-Kocher C, Jaffe J, Jun B.
-\newblock Differential power analysis\allowbreak[C]//\allowbreak{}Wiener M.
-\newblock Lecture Notes in Computer Science: volume 1666\quad Advances in
-  Cryptology ({CRYPTO}~'99).
-\newblock [S.l.]: Springer-Verlag, 1999: 388--397.
+\bibitem[Yan\ et~al.(2017)Yan, Shi, Wei, and Pan]{7986097}
+Yan B, Shi D, Wei J, et~al.
+\newblock Hibot: A generic ros-based robot-remote-control
+  framework\allowbreak[C]//\allowbreak{}2017 2nd Asia-Pacific Conference on
+  Intelligent Robot Systems (ACIRS).
+\newblock 2017: 221--226.
 
-\bibitem[Krasnogor(2004)]{Krasnogor2004e}
-Krasnogor N.
-\newblock Towards robust memetic algorithms\allowbreak[M]//\allowbreak{}Hart W,
-  Krasnogor N, Smith J.
-\newblock Studies in Fuzziness and Soft Computing: volume 166\quad Recent
-  Advances in Memetic Algorithms.
-\newblock New York: Springer Berlin Heidelberg, 2004: 185--207
+\bibitem[Yang\ et~al.(2004)Yang, Petriu, Whalen, and Petriu]{1345274}
+Yang X, Petriu D~C, Whalen T~E, et~al.
+\newblock A web-based 3d virtual robot remote control
+  system\allowbreak[C]//\allowbreak{}Canadian Conference on Electrical and
+  Computer Engineering 2004 (IEEE Cat. No.04CH37513): volume~2.
+\newblock 2004: 955--958 Vol.2.
 
-\bibitem[{Chafik El Idrissi}\ et~al.(1994){Chafik El Idrissi}, {Roney},
-  {Frigon}, and {Larzilli{\`e}re}]{ELIDRISSI94}
-{Chafik El Idrissi} M, {Roney} A, {Frigon} C, et~al.
-\newblock Measurements of total kinetic-energy released to the {$N=2$}
-  dissociation limit of {H}$_2$ --- evidence of the dissociation of very high
-  vibrational {R}ydberg states of {H}$_2$ by doubly-excited
-  states\allowbreak[J].
-\newblock Chemical Physics Letters, 1994, 224\penalty0 (10): 260--266.
+\bibitem[Xuhui\ et~al.(2017)Xuhui, Runlin, and Yongwei]{7992849}
+Xuhui Z, Runlin D, Yongwei L.
+\newblock Vr-based remote control system for rescue detection robot in coal
+  mine\allowbreak[C]//\allowbreak{}2017 14th International Conference on
+  Ubiquitous Robots and Ambient Intelligence (URAI).
+\newblock 2017: 863--867.
 
-\bibitem[Mellinger\ et~al.(1996)Mellinger, Vidal, and Jungen]{MELLINGER96}
-Mellinger A, Vidal C~R, Jungen C.
-\newblock Laser reduced fluorescence study of the carbon-monoxide nd triplet
-  {R}ydberg series-experimental results and multichannel quantum-defect
-  analysis\allowbreak[J].
-\newblock J. Chem. Phys., 1996, 104\penalty0 (5): 8913--8921.
-
-\bibitem[Shell(2002)]{SHELL02}
-Shell M.
-\newblock How to use the {IEEEtran \LaTeX} class\allowbreak[J].
-\newblock Journal of {\LaTeX} Class Files, 2002, 12\penalty0 (4): 100--120.
+\bibitem[Cho\ et~al.(2017)Cho, Ko, Shim, and Jang]{7992776}
+Cho K, Ko K, Shim H, et~al.
+\newblock Development of vr visualization system including deep learning
+  architecture for improving teleoperability\allowbreak[C]//\allowbreak{}2017
+  14th International Conference on Ubiquitous Robots and Ambient Intelligence
+  (URAI).
+\newblock 2017: 462--464.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  19 MAR 2018 23:10
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2032,7 +2032,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
  (./main.aux
 (./data/VRrobot.aux
 
-LaTeX Warning: Label `bump' multiply defined.
+LaTeX Warning: Label `card' multiply defined.
 
 ))
 \openout1 = `main.aux'.
@@ -2467,7 +2467,8 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 146--147
  [][] 
  []
 
-[6]
+[6] [7]
+第4章
 \g__fontspec_family_KaiTi_GB2312_int=\count334
 .................................................
 . fontspec info: "no-font-shape"
@@ -2496,8 +2497,6 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 146--147
 . <->"KaiTi_GB2312/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
- [7]
-第4章
 File: figures/ZED0.png Graphic file (type QTm)
 <use  "figures/ZED0.png" >
 Overfull \hbox (51.2286pt too wide) in paragraph at lines 163--164
@@ -2510,7 +2509,9 @@ File: figures/car.png Graphic file (type QTm)
  <use  "figures/car.png" >
 File: figures/bump.png Graphic file (type QTm)
 
-<use  "figures/bump.png" >
+<use  "figures/bump.png" > [8
+
+]
 File: figures/Dobot0.png Graphic file (type QTm)
  <use  "figures/Dobot0.png" >
 File: figures/Date.png Graphic file (type QTm)
@@ -2520,19 +2521,17 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-[8
-
-] [9]
+[9] [10]
 File: figures/vivedobot.jpg Graphic file (type QTm)
- <use  "figures/vivedobot.jpg" > [10]
+ <use  "figures/vivedobot.jpg" >
 File: figures/8NAO.jpg Graphic file (type QTm)
- <use  "figures/8NAO.jpg" >
-[11]
+ <use  "figures/8NAO.jpg" > [11]
+[12]
 第5章
 File: figures/stru.pdf Graphic file (type QTm)
 <use  "figures/stru.pdf" >
 File: figures/logic.pdf Graphic file (type QTm)
- <use  "figures/logic.pdf" > [12
+ <use  "figures/logic.pdf" > [13
 
 ]
 File: figures/dobott.png Graphic file (type QTm)
@@ -2542,7 +2541,7 @@ File: figures/dobotg.png Graphic file (type QTm)
  <use  "figures/dobotg.png" >
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 303.
- [13] [14]
+ [14] [15]
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
@@ -2553,25 +2552,20 @@ Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 File: figures/NAO.jpg Graphic file (type QTm)
 
-<use  "figures/NAO.jpg" > [15] [16]
+<use  "figures/NAO.jpg" > [16] [17]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 415.
- [17]
+ [18]
 第6章
 File: figures/robotic_arm_large.jpg Graphic file (type QTm)
-<use  "figures/robotic_arm_large.jpg" >) [18
+<use  "figures/robotic_arm_large.jpg" >) [19
 
-] (./main.bbl
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 48.
-)
+] (./main.bbl)
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [19
+ [20
 
 
 
@@ -2587,12 +2581,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34777 strings out of 493005
- 645245 string characters out of 6137955
- 696239 words of memory out of 5000000
- 38247 multiletter control sequences out of 15000+600000
- 119832 words of font info for 161 fonts, out of 8000000 for 9000
+ 34765 strings out of 493005
+ 645011 string characters out of 6137955
+ 696212 words of memory out of 5000000
+ 38235 multiletter control sequences out of 15000+600000
+ 113455 words of font info for 152 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  66i,14n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (29 pages, 183872 bytes).
+Output written on main.xdv (30 pages, 186088 bytes).

@@ -450,15 +450,6 @@ INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT figures/robotic_arm_large.jpg
 INPUT main.bbl
 INPUT main.bbl
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxmi7.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 OUTPUT main.thm
 INPUT main.aux
 INPUT data/VRrobot.aux

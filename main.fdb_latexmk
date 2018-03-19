@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex main"] 1521471937 "main.aux" "main.bbl" "main" 1521472252
+["bibtex main"] 1521476874 "main.aux" "main.bbl" "main" 1521476890
   "./thuthesis-numeric.bst" 1519970092 29070 9238ab6a53f805acac0a02bd63108986 ""
-  "data/VRrobot.aux" 1521472242 10609 8ca09364f2a78baa34e5be4868626296 ""
-  "main.aux" 1521472242 1915 074b4bc16d85c8db9bd694b79016c03e ""
-  "ref/refs.bib" 1521469945 2315 bad6dabb628ba238c4929f19786f6294 ""
+  "data/VRrobot.aux" 1521476880 10609 5acba38463e049f26587a4947b4320a7 ""
+  "main.aux" 1521476880 1853 125d9976a142bb9edd49f8d533e0ce5b ""
+  "ref/refs.bib" 1521474035 4791 3012950eef78061e9314c9ac31079e2c ""
   (generated)
   "main.blg"
   "main.bbl"
-["xdvipdfmx"] 1521472243 "main.xdv" "main.pdf" "main" 1521472252
-  "main.xdv" 1521472243 183872 b74e082e2fb2bd4d81e1d4657b6d40f9 "xelatex"
+["xdvipdfmx"] 1521476881 "main.xdv" "main.pdf" "main" 1521476890
+  "main.xdv" 1521476880 186088 4495291031a8939b26bc65e1b7f7da1f "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1521472237 "main.tex" "main.xdv" "main" 1521472252
+["xelatex"] 1521476875 "main.tex" "main.xdv" "main" 1521476890
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1513758119 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1513759731 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1513758417 520 4889cce2180234b97cad636b6039c722 ""
@@ -173,9 +173,9 @@
   "c:/texlive/2017/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def" 1513759673 61599 908c97415719bdf47281011264bc21ab ""
   "c:/texlive/2017/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1513759711 205722 8027ed7ab2230086d647802c25f3ee42 ""
   "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1513759835 3678314 3c630275ec9189ddac3045801304c3ba ""
-  "data/VRrobot.aux" 1521472242 10609 8ca09364f2a78baa34e5be4868626296 ""
-  "data/VRrobot.tex" 1521470383 22884 38fd55ad45ced5703d7e7a0a036111ba ""
-  "data/cover.tex" 1521472233 5744 a1b6fd92666b8322fa239365aba5fd92 ""
+  "data/VRrobot.aux" 1521476880 10609 5acba38463e049f26587a4947b4320a7 ""
+  "data/VRrobot.tex" 1521476564 23279 f96c0875ebf56e360a3e8c7e4ad92ac6 ""
+  "data/cover.tex" 1521476841 5759 b7884d55339ea3e72ed5ddef07b2af6f ""
   "data/denotation.tex" 1521457245 1663 92f8c35a70d29ed18c4c56e041fa7aa9 ""
   "figures/8NAO.jpg" 1521470124 180660 680e79a8f10a098af494f055cc9765a0 ""
   "figures/CtrlPanel.jpg" 1521375199 14559 0db958423feddebe9d82a2e48449e823 ""
@@ -200,19 +200,19 @@
   "figures/stru.pdf" 1521456050 56464 dc8abc30218805c77d807be70cdac734 ""
   "figures/vive.PNG" 1521288664 151726 b3770884228a9cee24cfb1b3084b7567 ""
   "figures/vivedobot.jpg" 1521470195 207962 0e852ca8cb3afa5433e93b65457f456b ""
-  "main.aux" 1521472242 1915 074b4bc16d85c8db9bd694b79016c03e ""
-  "main.bbl" 1521471938 2138 21545b1f6b37e5ce93146c34f159cb45 "bibtex main"
-  "main.out" 1521472243 3848 b380dba886290344dcaab4fb67c22d0d ""
+  "main.aux" 1521476880 1853 125d9976a142bb9edd49f8d533e0ce5b ""
+  "main.bbl" 1521476875 1895 3443c4ad8deea6151b72475405d3a12a "bibtex main"
+  "main.out" 1521476880 3848 b380dba886290344dcaab4fb67c22d0d ""
   "main.tex" 1521353534 1551 a97b5ba08532d8d35203fa591be7bdfb ""
-  "main.toc" 1521472243 1920 ff7b49d1c3629a42a7578a686947a124 ""
+  "main.toc" 1521476880 1920 20ca0f20722d3a4816075066a3a8987c ""
   "thuthesis.cfg" 1519970092 7124 7d2525743711706d1dbf988d57de3963 ""
   "thuthesis.cls" 1519970092 30859 888b3ef88a477d58031a94c6d882ecbb ""
   "thuthesis.sty" 1519970092 1622 433a987b19544bb151d6cb8c9a849792 ""
   (generated)
   "main.log"
-  "main.thm"
-  "main.aux"
-  "main.out"
   "main.toc"
   "main.xdv"
   "data/VRrobot.aux"
+  "main.out"
+  "main.aux"
+  "main.thm"

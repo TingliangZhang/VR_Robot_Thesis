@@ -13,11 +13,11 @@
 \contentsline {section}{\numberline {4.2}机械臂遥控与执行机构（Vive+DOBOT机械臂）}{9}{section.4.2}
 \contentsline {section}{\numberline {4.3}机器人遥控与执行机构（NAO人形机器人）}{11}{section.4.3}
 \contentsline {section}{\numberline {4.4}总结}{11}{section.4.4}
-\contentsline {chapter}{\numberline {第5章}技术细节}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}实时图像采集与显示系统}{14}{section.5.1}
-\contentsline {section}{\numberline {5.2}机械臂控制系统}{14}{section.5.2}
+\contentsline {chapter}{\numberline {第5章}技术细节}{12}{chapter.5}
+\contentsline {section}{\numberline {5.1}实时图像采集与显示系统}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}机械臂控制系统}{13}{section.5.2}
 \contentsline {section}{\numberline {5.3}NAO机器人控制系统}{16}{section.5.3}
-\contentsline {chapter}{\numberline {第6章}展望}{19}{chapter.6}
-\contentsline {section}{\numberline {6.1}改进}{19}{section.6.1}
-\contentsline {section}{\numberline {6.2}应用}{19}{section.6.2}
-\contentsline {chapter}{参考文献}{20}{section*.30}
+\contentsline {chapter}{\numberline {第6章}展望}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}改进}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}应用}{18}{section.6.2}
+\contentsline {chapter}{参考文献}{19}{section*.31}

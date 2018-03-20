@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 00:27
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2397,7 +2397,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 File: figures/CtrlPanel.jpg Graphic file (type QTm)
 <use  "figures/CtrlPanel.jpg" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 9.
+(Font)              scaled to size 11.04124pt on input line 8.
  [1
 
 
@@ -2405,7 +2405,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 ]
 第2章
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.64714pt on input line 22.
+(Font)              scaled to size 12.64714pt on input line 21.
 File: figures/Cube.jpg Graphic file (type QTm)
 <use  "figures/Cube.jpg" >
 File: figures/Tri.jpg Graphic file (type QTm)
@@ -2413,35 +2413,35 @@ File: figures/Tri.jpg Graphic file (type QTm)
 File: figures/google-jump.jpg Graphic file (type QTm)
 
 <use  "figures/google-jump.jpg" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 48--49
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 11.74377pt on input line 55.
+(Font)              scaled to size 11.74377pt on input line 54.
 [2
 
 ]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 63.
+(Font)              scaled to size 8.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.52437pt on input line 63.
+(Font)              scaled to size 6.52437pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 63.
+(Font)              scaled to size 9.03374pt on input line 62.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 63.
+(Font)              scaled to size 9.03374pt on input line 62.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 63.
+(Font)              scaled to size 5.0pt on input line 62.
 File: figures/movementPrime41_16.png Graphic file (type QTm)
  <use  "figures/movementPrime41_16.png" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 67--68
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
 [3]
 File: figures/T-HR3_2.jpg Graphic file (type QTm)
  <use  "figures/T-HR3_2.jpg" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 84--85
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
@@ -2458,10 +2458,13 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 100--101
 ]
 File: figures/HMD.jpg Graphic file (type QTm)
  <use  "figures/HMD.jpg" >
-File: figures/Google-Cardboard.jpg Graphic file (type QTm)
- <use  "figures/Google-Cardboard.jpg" >
-File: figures/vive.PNG Graphic file (type QTm)
+File: figures/cardboard.png Graphic file (type QTm)
+ <use  "figures/cardboard.png" >
+Overfull \hbox (22.42757pt too wide) in paragraph at lines 128--129
+ [][] 
+ []
 
+File: figures/vive.PNG Graphic file (type QTm)
 <use  "figures/vive.PNG" >
 Overfull \hbox (28.45273pt too wide) in paragraph at lines 146--147
  [][] 
@@ -2505,43 +2508,51 @@ Overfull \hbox (51.2286pt too wide) in paragraph at lines 163--164
 
 File: figures/Google-Cardboard.jpg Graphic file (type QTm)
 <use  "figures/Google-Cardboard.jpg" >
-File: figures/car.png Graphic file (type QTm)
- <use  "figures/car.png" >
 File: figures/bump.png Graphic file (type QTm)
+ <use  "figures/bump.png" >
+File: figures/car.png Graphic file (type QTm)
 
-<use  "figures/bump.png" > [8
+<use  "figures/car.png" > [8
 
 ]
+File: figures/car1.JPG Graphic file (type QTm)
+ <use  "figures/car1.JPG" >
 File: figures/Dobot0.png Graphic file (type QTm)
- <use  "figures/Dobot0.png" >
-File: figures/Date.png Graphic file (type QTm)
 
-<use  "figures/Date.png" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 213--214
+<use  "figures/Dobot0.png" >
+File: figures/Date.png Graphic file (type QTm)
+ <use  "figures/Date.png" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
-[9] [10]
 File: figures/vivedobot.jpg Graphic file (type QTm)
- <use  "figures/vivedobot.jpg" >
+<use  "figures/vivedobot.jpg" > [9] [10]
 File: figures/8NAO.jpg Graphic file (type QTm)
  <use  "figures/8NAO.jpg" > [11]
-[12]
 第5章
 File: figures/stru.pdf Graphic file (type QTm)
 <use  "figures/stru.pdf" >
 File: figures/logic.pdf Graphic file (type QTm)
- <use  "figures/logic.pdf" > [13
+ <use  "figures/logic.pdf" > [12
 
 ]
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 28
+9.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 11.04124pt on input line 289.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.06006pt on input line 289.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.07271pt on input line 289.
 File: figures/dobott.png Graphic file (type QTm)
 
 <use  "figures/dobott.png" >
-File: figures/dobotg.png Graphic file (type QTm)
- <use  "figures/dobotg.png" >
+File: figures/dobotg.pdf Graphic file (type QTm)
+ <use  "figures/dobotg.pdf" > [13]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 303.
- [14] [15]
+ut line 332.
+ [14]
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
@@ -2550,22 +2561,23 @@ Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
+ [15]
 File: figures/NAO.jpg Graphic file (type QTm)
 
-<use  "figures/NAO.jpg" > [16] [17]
+<use  "figures/NAO.jpg" > [16]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 415.
- [18]
+(Font)              scaled to size 6.0pt on input line 444.
+ [17]
 第6章
 File: figures/robotic_arm_large.jpg Graphic file (type QTm)
-<use  "figures/robotic_arm_large.jpg" >) [19
+<use  "figures/robotic_arm_large.jpg" >) [18
 
 ] (./main.bbl)
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [20
+ [19
 
 
 
@@ -2581,12 +2593,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34765 strings out of 493005
- 645011 string characters out of 6137955
- 696212 words of memory out of 5000000
- 38235 multiletter control sequences out of 15000+600000
- 113455 words of font info for 152 fonts, out of 8000000 for 9000
+ 34809 strings out of 493005
+ 646306 string characters out of 6137955
+ 696304 words of memory out of 5000000
+ 38276 multiletter control sequences out of 15000+600000
+ 124274 words of font info for 176 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  66i,14n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (30 pages, 186088 bytes).
+Output written on main.xdv (29 pages, 189176 bytes).

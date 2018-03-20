@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 22:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2522,13 +2522,13 @@ File: figures/Dobot0.png Graphic file (type QTm)
 <use  "figures/Dobot0.png" >
 File: figures/Date.png Graphic file (type QTm)
  <use  "figures/Date.png" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 219--220
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
 File: figures/vivedobot.jpg Graphic file (type QTm)
 <use  "figures/vivedobot.jpg" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 231--232
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
@@ -2542,21 +2542,21 @@ File: figures/logic.pdf Graphic file (type QTm)
  <use  "figures/logic.pdf" > [12
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 28
-9.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 29
+0.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 289.
+(Font)              scaled to size 11.04124pt on input line 290.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.06006pt on input line 289.
+(Font)              scaled to size 8.06006pt on input line 290.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.07271pt on input line 289.
+(Font)              scaled to size 6.07271pt on input line 290.
 File: figures/dobott.png Graphic file (type QTm)
 
 <use  "figures/dobott.png" >
 File: figures/dobotg.pdf Graphic file (type QTm)
  <use  "figures/dobotg.pdf" > [13]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 334.
+ut line 335.
  [14]
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
@@ -2571,7 +2571,7 @@ File: figures/NAO.jpg Graphic file (type QTm)
 
 <use  "figures/NAO.jpg" > [16]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 432.
+(Font)              scaled to size 6.0pt on input line 433.
  [17]
 第6章
 File: figures/robotic_arm_large.jpg Graphic file (type QTm)
@@ -2610,4 +2610,4 @@ Here is how much of TeX's memory you used:
  1349 hyphenation exceptions out of 8191
  66i,14n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (29 pages, 195156 bytes).
+Output written on main.xdv (29 pages, 194932 bytes).

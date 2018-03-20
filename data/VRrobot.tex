@@ -155,7 +155,7 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
 下面以时间顺序分阶段介绍我们的成果：
 
 \section{实时图像采集与显示系统}
-实现了多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动{\kaishu （参见视频1）}，以采集实时图像信息{\kaishu （参见视频2）}(如图~\ref{zed})。在这一阶段，我们的VR平台暂时使用使用Google Cardboard（谷歌折叠式纸板虚拟现实显示器）(如图~\ref{card})。操作者头部姿态数据由其中Android手机自身的陀螺仪获取，并发送到舵机的控制端控制舵机转动。
+实现了多自由度机械结构托举的双目摄像头，随着操作者头部的转动而同步转动，以采集实时图像信息{\kaishu （参见视频1）}(如图~\ref{zed})。在这一阶段，我们的VR平台暂时使用使用Google Cardboard（谷歌折叠式纸板虚拟现实显示器）(如图~\ref{card})。操作者头部姿态数据由其中Android手机自身的陀螺仪获取，并发送到舵机的控制端控制舵机转动。
 
 \begin{figure}
 \begin{minipage}{0.48\textwidth}
@@ -190,7 +190,7 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
 \end{figure}
 
 
-同时我们改写了DOBOT机械臂底层及接口，解决了串口控制卡顿的问题。实现用遥控器-接收机控制系统，远程完成叠纸杯实验。{\kaishu （参见视频3）}
+同时我们改写了DOBOT机械臂底层及接口，解决了串口控制卡顿的问题。实现用遥控器-接收机控制系统，远程完成叠纸杯实验。{\kaishu （参见视频2）}
 
 \section{机械臂遥控与执行机构（Vive+DOBOT机械臂）}
 
@@ -212,7 +212,8 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
 \end{figure}
 
 
-我们可以实现读取追踪器和VR头盔绝对位置并通过串口发送。可以看到图~\ref{POS}中输出了左手，右手和头盔的绝对坐标。我们改写了机械臂底层及接口，解决了串口控制卡顿的情况。{\kaishu （参见视频4及5）}
+我们可以实现读取追踪器和VR头盔绝对位置并通过串口发送。可以看到图~\ref{POS}中输出了左手，右手和头盔的绝对坐标。我们改写了机械臂底层及接口，解决了串口控制卡顿的情况{\kaishu （参见视频3）}。
+
 \begin{figure}[htbp]
 \small
 \centering
@@ -221,9 +222,9 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
 \label{POS}
 \end{figure}
 
-从而实现了用Vive追踪器远程控制机械臂，为了测试机械臂的响应，我们用Vive追踪器操控Dobot机械手在竖直平面内画一个五角星{\kaishu （参见视频6）}
+从而实现了用Vive追踪器远程控制机械臂，为了测试机械臂的响应，我们用Vive追踪器操控Dobot机械手在竖直平面内画一个五角星。
 
-之后，我们使用上述双目摄像头系统和Vive配合，远程完成了叠纸杯实验（图~\ref{cup}）。{\kaishu （参见视频7）}
+之后，我们使用上述双目摄像头系统和Vive配合，远程完成了叠纸杯实验（图~\ref{cup}）{\kaishu （参见视频4）}。
 
 \begin{figure}[htbp]
 \small
@@ -236,7 +237,7 @@ Vive虚拟现实套件\footnote{\url{https://www.vive.com/cn/product/}}(如图~\
 
 \section{机器人遥控与执行机构（NAO人形机器人）}
 
-为说明此系统的普适性，我们将此系统成功拓展到机械结构与Dobot差别很大的NAO人形机器人上，用追踪器控制机器人手臂的运动（图~\ref{8NAO}）。\footnote{由于NAO自身设计的缺陷（易失去平衡），我们现阶段并没有加入腿部动作，且将手臂动作对称处理}成功完成Vive远程控制NAO的实验。{\kaishu （参见视频8）}
+为说明此系统的普适性，我们将此系统成功拓展到机械结构与Dobot差别很大的NAO人形机器人上，用追踪器控制机器人手臂的运动（图~\ref{8NAO}）。\footnote{由于NAO自身设计的缺陷（易失去平衡），我们现阶段并没有加入腿部动作，且将手臂动作对称处理}成功完成Vive远程控制NAO的实验{\kaishu （参见视频5）}。
 
 \begin{figure}[htbp]
 \small

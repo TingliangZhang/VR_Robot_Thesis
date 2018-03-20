@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 20:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  20 MAR 2018 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2410,6 +2410,14 @@ File: figures/Cube.jpg Graphic file (type QTm)
 <use  "figures/Cube.jpg" >
 File: figures/Tri.jpg Graphic file (type QTm)
  <use  "figures/Tri.jpg" >
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.52437pt on input line 40.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 40.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 40.
 File: figures/google-jump.jpg Graphic file (type QTm)
 
 <use  "figures/google-jump.jpg" >
@@ -2422,14 +2430,6 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 [2
 
 ]
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 62.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.52437pt on input line 62.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 62.
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 62.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 62.
 File: figures/movementPrime41_16.png Graphic file (type QTm)
@@ -2527,9 +2527,14 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 219--220
  []
 
 File: figures/vivedobot.jpg Graphic file (type QTm)
-<use  "figures/vivedobot.jpg" > [9] [10]
+<use  "figures/vivedobot.jpg" >
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 231--232
+ [][] 
+ []
+
+[9]
 File: figures/8NAO.jpg Graphic file (type QTm)
- <use  "figures/8NAO.jpg" > [11]
+ <use  "figures/8NAO.jpg" > [10] [11]
 第5章
 File: figures/stru.pdf Graphic file (type QTm)
 <use  "figures/stru.pdf" >
@@ -2551,7 +2556,7 @@ File: figures/dobott.png Graphic file (type QTm)
 File: figures/dobotg.pdf Graphic file (type QTm)
  <use  "figures/dobotg.pdf" > [13]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 332.
+ut line 334.
  [14]
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
 Missing character: There is no ， in font ntx-Regular-tlf-ot1!
@@ -2566,13 +2571,17 @@ File: figures/NAO.jpg Graphic file (type QTm)
 
 <use  "figures/NAO.jpg" > [16]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 444.
+(Font)              scaled to size 6.0pt on input line 432.
  [17]
 第6章
 File: figures/robotic_arm_large.jpg Graphic file (type QTm)
 <use  "figures/robotic_arm_large.jpg" >) [18
 
-] (./main.bbl)
+] (./main.bbl
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 47.
+Missing character: There is no ™ in font ntx-Regular-tlf-t1!
+)
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
@@ -2593,12 +2602,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34809 strings out of 493005
- 646306 string characters out of 6137955
- 696304 words of memory out of 5000000
- 38276 multiletter control sequences out of 15000+600000
- 124274 words of font info for 176 fonts, out of 8000000 for 9000
+ 34845 strings out of 493005
+ 647257 string characters out of 6137955
+ 698451 words of memory out of 5000000
+ 38312 multiletter control sequences out of 15000+600000
+ 127843 words of font info for 184 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  66i,14n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (29 pages, 189176 bytes).
+Output written on main.xdv (29 pages, 194972 bytes).

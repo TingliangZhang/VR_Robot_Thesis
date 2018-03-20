@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \providecommand{\href}[2]{\url{#2}}
@@ -41,5 +41,40 @@ Cho K, Ko K, Shim H, et~al.
   14th International Conference on Ubiquitous Robots and Ambient Intelligence
   (URAI).
 \newblock 2017: 462--464.
+
+\bibitem[1()]{1}
+Toyota's t-hr3 robot mimics your movements\allowbreak[EB/OL].
+\newblock \url{https://www.engadget.com/2017/11/21/toyota-t-hr3-robot/}.
+
+\bibitem[12()]{12}
+Toyota's t-hr3 robot mimics your movements\allowbreak[EB/OL].
+\newblock \url{https://www.engadget.com/2017/11/21/toyota-t-hr3-robot/}.
+
+\bibitem[13()]{13}
+Vive™ | discover virtual reality beyond imagination\allowbreak[EB/OL].
+\newblock \url{https://www.vive.com/us/}.
+
+\bibitem[14()]{14}
+Optitrack - motion capture systems\allowbreak[EB/OL].
+\newblock \url{http://optitrack.com/}.
+
+\bibitem[Kuzyakov()]{15}
+Kuzyakov E.
+\newblock Under the hood: Building 360 video\allowbreak[EB/OL].
+\newblock
+  \url{https://code.facebook.com/posts/1638767863078802/under-the-hood-building-360-video/}.
+
+\bibitem[SoftBank()]{16}
+SoftBank.
+\newblock Discover nao, the little humanoid robot from softbank robotics |
+  softbank robotics\allowbreak[EB/OL].
+\newblock
+  \url{https://www.ald.softbankrobotics.com/zh/xuan-ku-ji-qi-ren/naoshi-shui}.
+
+\bibitem[NASA()]{17}
+NASA.
+\newblock Robotic arm | nasa\allowbreak[EB/OL].
+\newblock
+  \url{https://www.nasa.gov/audience/forstudents/k-4/dictionary/Robotic_Arm.html}.
 
 \end{thebibliography}

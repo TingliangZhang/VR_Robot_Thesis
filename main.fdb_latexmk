@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex main"] 1521556199 "main.aux" "main.bbl" "main" 1521559425
+["bibtex main"] 1521561503 "main.aux" "main.bbl" "main" 1521561518
   "./thuthesis-numeric.bst" 1519970092 29070 9238ab6a53f805acac0a02bd63108986 ""
-  "data/VRrobot.aux" 1521559416 11611 ac52665081d695c7da985ba391d45f50 ""
-  "main.aux" 1521559416 2078 0875a20a6058bf55ed1964b26aa0c3e2 ""
+  "data/VRrobot.aux" 1521561509 11279 e155e4dae3f595f7dfd7dbfe4feade28 ""
+  "main.aux" 1521561509 2078 0875a20a6058bf55ed1964b26aa0c3e2 ""
   "ref/refs.bib" 1521554541 6170 0545c445031641b6bfe3ef16bb2cebe7 ""
   (generated)
   "main.blg"
   "main.bbl"
-["xdvipdfmx"] 1521559417 "main.xdv" "main.pdf" "main" 1521559425
-  "main.xdv" 1521559416 194932 35d8581fc28bc18dabb265ad81cb38b9 "xelatex"
+["xdvipdfmx"] 1521561510 "main.xdv" "main.pdf" "main" 1521561518
+  "main.xdv" 1521561510 197644 db70d66dcf074ef9f848dca638e094e2 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1521559412 "main.tex" "main.xdv" "main" 1521559425
+["xelatex"] 1521561504 "main.tex" "main.xdv" "main" 1521561518
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1513758119 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1513759731 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1513758417 520 4889cce2180234b97cad636b6039c722 ""
@@ -173,8 +173,8 @@
   "c:/texlive/2017/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def" 1513759673 61599 908c97415719bdf47281011264bc21ab ""
   "c:/texlive/2017/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1513759711 205722 8027ed7ab2230086d647802c25f3ee42 ""
   "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1513759835 3678314 3c630275ec9189ddac3045801304c3ba ""
-  "data/VRrobot.aux" 1521559416 11611 ac52665081d695c7da985ba391d45f50 ""
-  "data/VRrobot.tex" 1521559407 24479 d71bb1320fe1e081ffbd9e6d44741d42 ""
+  "data/VRrobot.aux" 1521561509 11279 e155e4dae3f595f7dfd7dbfe4feade28 ""
+  "data/VRrobot.tex" 1521561490 24780 01d266faa9c377f84364ab85249af0bb ""
   "data/cover.tex" 1521550273 5703 ed91fd5f56d95efca318d9b256faa10e ""
   "data/denotation.tex" 1521555420 1669 cd1785418eb457ca9b83480eeaea630a ""
   "figures/8NAO.jpg" 1521558261 577465 5bcb7739a2152018981eb0f4c2cfb345 ""
@@ -202,19 +202,19 @@
   "figures/stru.pdf" 1521456050 56464 dc8abc30218805c77d807be70cdac734 ""
   "figures/vive.PNG" 1521288664 151726 b3770884228a9cee24cfb1b3084b7567 ""
   "figures/vivedobot.jpg" 1521558173 1317371 f573fdd2fa79128b076b3246562ba13f ""
-  "main.aux" 1521559416 2078 0875a20a6058bf55ed1964b26aa0c3e2 ""
-  "main.bbl" 1521556199 3065 cadf9e0fd11219e30dae08c95b94013d "bibtex main"
-  "main.out" 1521559416 3848 27b062cff1f417f9e3242f8515cbd669 ""
+  "main.aux" 1521561509 2078 0875a20a6058bf55ed1964b26aa0c3e2 ""
+  "main.bbl" 1521561503 3065 cadf9e0fd11219e30dae08c95b94013d "bibtex main"
+  "main.out" 1521561510 4166 564ce8d338e0a0e5658950935411f456 ""
   "main.tex" 1521353534 1551 a97b5ba08532d8d35203fa591be7bdfb ""
-  "main.toc" 1521559416 1920 ff689457a165a5e81eea913a62bbcebc ""
+  "main.toc" 1521561510 2108 27ef4d7253e86cc7794fe65692421da0 ""
   "thuthesis.cfg" 1519970092 7124 7d2525743711706d1dbf988d57de3963 ""
   "thuthesis.cls" 1519970092 30859 888b3ef88a477d58031a94c6d882ecbb ""
   "thuthesis.sty" 1519970092 1622 433a987b19544bb151d6cb8c9a849792 ""
   (generated)
   "data/VRrobot.aux"
-  "main.xdv"
-  "main.toc"
-  "main.log"
-  "main.out"
   "main.thm"
   "main.aux"
+  "main.log"
+  "main.out"
+  "main.xdv"
+  "main.toc"

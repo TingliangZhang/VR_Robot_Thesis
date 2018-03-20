@@ -16,6 +16,8 @@
 \contentsline {chapter}{\numberline {第5章}技术细节}{12}{chapter.5}
 \contentsline {section}{\numberline {5.1}实时图像采集与显示系统}{13}{section.5.1}
 \contentsline {section}{\numberline {5.2}机械臂控制系统}{13}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}点对点移动：}{14}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}基于运动方向的移动：}{15}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}NAO机器人控制系统}{16}{section.5.3}
 \contentsline {chapter}{\numberline {第6章}展望}{18}{chapter.6}
 \contentsline {section}{\numberline {6.1}改进}{18}{section.6.1}

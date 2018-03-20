@@ -314,7 +314,7 @@ ZED双目相机能够以每秒15帧的速度、最高$4416\times1242$的分辨�
 \label{dobott}
 \end{figure}
 
-图~\ref{dobott}为Dobot各自由度的示意图，机械臂在三维空间中的移动需要用到joint1、2、3，该三个自由度简化后的模型如下图所示。
+图~\ref{dobott}为Dobot各自由度的示意图，机械臂在三维空间中的移动需要用到joint1、2、3，该三个自由度简化后的模型如图~\ref{dobotg}所示。
 
 其中a,b分别为两个臂的长度，根据官方资料，$a=135mm$,$b=147mm$。$\alpha$、$\beta$、$\theta$ 为三个自由度对应的方位角。
 
@@ -328,16 +328,19 @@ ZED双目相机能够以每秒15帧的速度、最高$4416\times1242$的分辨�
 
 由图~\ref{dobotg}可得，末端坐标的位置$(x,y,z)$可表示为：
 
-\begin{align}
+\begin{displaymath}
+	\left\{  
+\begin{aligned}
 x&=(a \times sin(\alpha)+b \times cos(\beta))\times cos(\theta)\\
 y&=(a \times sin(\alpha)+b \times cos(\beta)) \times sin(\theta)\\
-z&=a*cos(\alpha)-b*cos(\beta)
-\end{align}
+z&=a \times cos(\alpha)-b \times cos(\beta)
+\end{aligned}
+	\right.	
+\end{displaymath}
 
 可见，任意一组给定的x,y,z坐标都有唯一的一组$\alpha$、$\beta$、$\theta$与之对应，只要得到方位角与坐标之间的关系即可将机械臂移动到其可触及的任意位置。
 
-\begin{enumerate}
-\item 点对点移动：
+\subsection{点对点移动：}
 联立以上方程组，解得：
 
 \begin{align}
@@ -350,41 +353,45 @@ z&=a*cos(\alpha)-b*cos(\beta)
 \theta {\rm{ = }}\arcsin (\frac{y}{{a \times \sin \alpha  + b \times \cos \beta }})
 \end{equation}
 
-由此可将任意一点的$(x,y,z)$坐标用机械臂三个自由度的方位角$(\alpha，\beta，\theta)$来表示，，因而可通过各关节的转动而实现点对点运动。即初始坐标为$(x_1,y_1,z_1)$，目的坐标为$(x_2,y_2,z_2)$，则可用上述方法计算出相应的$(\alpha_1，\beta_1，\theta_1)$,$(\alpha_2，\beta_2，\theta_2)$,从而得知各关节需转动的角度。
+由此可将任意一点的$(x,y,z)$坐标用机械臂三个自由度的方位角$(\alpha,\beta,\theta)$来表示，因而可通过各关节的转动而实现点对点运动。即初始坐标为$(x_1,y_1,z_1)$，目的坐标为$(x_2,y_2,z_2)$，则可用上述方法计算出相应的$(\alpha_1,\beta_1,\theta_1)$,$(\alpha_2,\beta_2,\theta_2)$,从而得知各关节需转动的角度。
 
-\item 基于运动方向的移动
-机械臂在$(x,y,z)$坐标系中各轴的速度分量也可由$(\alpha，\beta，\theta)$坐标系中的角速度表示：
+\subsection{基于运动方向的移动：}
 
-\begin{align}
-\begin{array}{l}
-{v_x} = \frac{{dx}}{{dt}} = \frac{{\delta x}}{{\delta \alpha }}\frac{{\delta \alpha }}{{\delta t}} + \frac{{\delta x}}{{\delta \beta }}\frac{{\delta \beta }}{{\delta t}} + \frac{{\delta x}}{{\delta \theta }}\frac{{\delta \theta }}{{\delta t}} \\= a\cos \alpha \cos \theta {w_\alpha } - b\sin \beta \cos \theta  - (a\sin \alpha  + b\cos \beta )\sin \theta {w_\theta }\end{array}\\
-{v_y} = a\cos \alpha \sin \theta {w_\alpha } - b\sin \beta \sin \theta  + (a\sin \alpha  + b\cos \beta )\cos \theta {w_\theta }\\
-{v_z} =  - a\sin \alpha {w_\alpha } - b\cos \beta {w_\beta }
-\end{align}
-
-用矩阵形式表示，即：
-\begin{equation}
-\left[ {\begin{array}{*{20}{c}}
-	{{v_x}}\\
-	{{v_y}}\\
-	{{v_z}}
-	\end{array}} \right] = \left[ {\begin{array}{*{20}{c}}
-	{a\cos \alpha \cos \theta }&{ - b\sin \beta \cos \theta }&{ - (a\sin \alpha  + b\cos \beta )\sin \theta }\\
-	{a\cos \alpha \sin \theta }&{ - b\sin \beta \sin \theta }&{(a\sin \alpha  + b\cos \beta )\cos \theta }\\
-	{ - a\sin \alpha }&{ - b\cos \beta }&0
-	\end{array}} \right]\left[ {\begin{array}{*{20}{c}}
-	{{w_\alpha }}\\
-	{{w_\beta }}\\
-	{{w_\theta }}
-	\end{array}} \right]
-\end{equation}
-
-简写为$\overrightarrow {V}  = {A}\overrightarrow w $
-
-由于任意时刻机械臂都有确定的方位角，故$A$为已知量，因而给定一组想要得到的$(v_x,v_y,v_z)$,则可通过计算$\overrightarrow w=A^{-1}\overrightarrow {V}$得到对应的角度。
-\end{enumerate}
-
-
+机械臂在$(x,y,z)$坐标系中各轴的速度分量也可由$(\alpha,\beta,\theta)$坐标系中的角速度表示：
+	\begin{displaymath}
+		\begin{aligned}
+			{v_x}& = \frac{{dx}}{{dt}}\\ &= \frac{{\delta x}}{{\delta \alpha }}\frac{{\delta \alpha }}{{\delta t}} + \frac{{\delta x}}{{\delta \beta }}\frac{{\delta \beta }}{{\delta t}} + \frac{{\delta x}}{{\delta \theta }}\frac{{\delta \theta }}{{\delta t}} \\&= a\cos \alpha \cos \theta {w_\alpha } - b\sin \beta \cos \theta  - (a\sin \alpha  + b\cos \beta )\sin \theta {w_\theta }\\		
+		\end{aligned}
+	\end{displaymath}
+	
+	同理可得：
+	
+	\begin{displaymath}
+		\begin{aligned}
+			{v_y} &= a\cos \alpha \sin \theta {w_\alpha } - b\sin \beta \sin \theta  + (a\sin \alpha  + b\cos \beta )\cos \theta {w_\theta }\\
+			{v_z} &=  - a\sin \alpha {w_\alpha } - b\cos \beta {w_\beta }
+		\end{aligned}
+	\end{displaymath}
+	用矩阵形式表示，即：
+	\begin{displaymath}
+		\left[ {\begin{array}{*{20}{c}}
+				{{v_x}}\\
+				{{v_y}}\\
+				{{v_z}}
+		\end{array}} \right] = \left[ {\begin{array}{*{20}{c}}
+				{a\cos \alpha \cos \theta }&{ - b\sin \beta \cos \theta }&{ - (a\sin \alpha  + b\cos \beta )\sin \theta }\\
+				{a\cos \alpha \sin \theta }&{ - b\sin \beta \sin \theta }&{(a\sin \alpha  + b\cos \beta )\cos \theta }\\
+				{ - a\sin \alpha }&{ - b\cos \beta }&0
+		\end{array}} \right]\left[ {\begin{array}{*{20}{c}}
+				{{w_\alpha }}\\
+				{{w_\beta }}\\
+				{{w_\theta }}
+		\end{array}} \right]
+	\end{displaymath}
+	
+	简写为$\textbf {V}  = {A}\textbf w $
+	
+	由于任意时刻机械臂都有确定的方位角，故$A$为已知量，因而给定一组目的速度矢量$(v_x,v_y,v_z)$,则可通过计算$\textbf {w}=A^{-1}\textbf {V}$得到对应的三轴角速度。
 
 
 \section{NAO机器人控制系统}

@@ -470,8 +470,10 @@ INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT figures/dobott.png
 INPUT figures/dobotg.pdf
-INPUT figures/NAO.jpg
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
+INPUT figures/NAO.jpg
 INPUT figures/robotic_arm_large.jpg
 INPUT main.bbl
 INPUT main.bbl

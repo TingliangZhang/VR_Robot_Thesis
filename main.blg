@@ -4,53 +4,60 @@ The top-level auxiliary file: main.aux
 A level-1 auxiliary file: data/VRrobot.aux
 The style file: thuthesis-numeric.bst
 Database file #1: ref/refs.bib
+Repeated entry---line 80 of file ref/refs.bib
+ : @inproceedings{4798767
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 106 of file ref/refs.bib
+ : @inproceedings{7992776
+ :                       ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty year in 1
 Warning--empty year in 12
 Warning--empty year in 13
 Warning--empty year in 14
 Warning--empty year in 15
 Warning--empty year in 16
 Warning--empty year in 17
-You've used 12 entries,
+You've used 13 entries,
             3389 wiz_defined-function locations,
-            818 strings with 7419 characters,
-and the built_in function-call counts, 47432 in all, are:
-= -- 6202
-> -- 4349
-< -- 4366
-+ -- 1600
-- -- 56
-* -- 310
-:= -- 5311
-add.period$ -- 32
-call.type$ -- 12
-change.case$ -- 24
-chr.to.int$ -- 1416
-cite$ -- 23
-duplicate$ -- 249
-empty$ -- 715
-format.name$ -- 96
-if$ -- 14354
+            833 strings with 7936 characters,
+and the built_in function-call counts, 60842 in all, are:
+= -- 7982
+> -- 5650
+< -- 5666
++ -- 2083
+- -- 79
+* -- 375
+:= -- 6846
+add.period$ -- 36
+call.type$ -- 13
+change.case$ -- 26
+chr.to.int$ -- 1831
+cite$ -- 22
+duplicate$ -- 276
+empty$ -- 807
+format.name$ -- 134
+if$ -- 18387
 int.to.chr$ -- 1
-int.to.str$ -- 13
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 65
-num.names$ -- 24
-pop$ -- 156
+newline$ -- 71
+num.names$ -- 30
+pop$ -- 166
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 13
 quote$ -- 0
-skip$ -- 5912
+skip$ -- 7623
 stack$ -- 0
-substring$ -- 1632
-swap$ -- 13
-text.length$ -- 77
+substring$ -- 2125
+swap$ -- 14
+text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 153
-warning$ -- 7
-while$ -- 97
+type$ -- 161
+warning$ -- 6
+while$ -- 129
 width$ -- 0
-write$ -- 154
-(There were 7 warnings)
+write$ -- 172
+(There were 2 error messages)

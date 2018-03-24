@@ -3,15 +3,14 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: data/VRrobot.aux
 The style file: thuthesis-numeric.bst
+A level-1 auxiliary file: data/ack.aux
+A level-1 auxiliary file: data/resume.aux
 Database file #1: ref/refs.bib
-Repeated entry---line 80 of file ref/refs.bib
- : @inproceedings{4798767
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 106 of file ref/refs.bib
+Repeated entry---line 93 of file ref/refs.bib
  : @inproceedings{7992776
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "thuthesis"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty year in 12
 Warning--empty year in 13
@@ -21,7 +20,7 @@ Warning--empty year in 16
 Warning--empty year in 17
 You've used 13 entries,
             3389 wiz_defined-function locations,
-            833 strings with 7936 characters,
+            836 strings with 7972 characters,
 and the built_in function-call counts, 60842 in all, are:
 = -- 7982
 > -- 5650
@@ -60,4 +59,4 @@ warning$ -- 6
 while$ -- 129
 width$ -- 0
 write$ -- 172
-(There were 2 error messages)
+(There was 1 error message)

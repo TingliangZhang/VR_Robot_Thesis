@@ -1,5 +1,25 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 利用 Xfig 制图\relax }}{13}{figure.caption.16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 包含子图形的大图形(subcaptionbox示例)\relax }}{14}{figure.caption.17}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 包含子图形的大图形(subfigure示例)\relax }}{14}{figure.caption.18}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 并排第一个图\relax }}{15}{figure.caption.19}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces 并排第二个图\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 双足人形机器人控制面板\relax }}{1}{figure.caption.10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 立方体拼接\relax }}{2}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 金字塔形拼接\relax }}{2}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Google Jump\relax }}{3}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces OptiTrack\relax }}{3}{figure.caption.13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces T-HR3\relax }}{4}{figure.caption.14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 系统简介\relax }}{5}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Vive VR头盔\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Google Cardboard\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Vive虚拟现实套件\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 双自由度机械结构托举的双目摄像头\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Google Cardboard\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 气泵和电磁阀组建的吸附装置\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 全向轮底盘\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 全向轮移动平台\relax }}{9}{figure.caption.20}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces DOBOT机械臂及通讯系统\relax }}{9}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 追踪器和VR头盔绝对位置\relax }}{10}{figure.caption.21}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces DOBOT远程叠纸杯实验\relax }}{10}{figure.caption.22}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Vive远程控制NAO\relax }}{11}{figure.caption.23}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 硬件架构总览\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 数据流向示意\relax }}{12}{figure.caption.25}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces DOBOT机械臂各自由度的示意图\relax }}{14}{figure.caption.27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces DOBOT机械臂末端坐标表示示意图\relax }}{14}{figure.caption.28}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces NAO机器人\relax }}{17}{figure.caption.29}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 国际空间站的机械臂（可以帮助宇航员在太空中举起大型物体）\relax }}{20}{figure.caption.30}

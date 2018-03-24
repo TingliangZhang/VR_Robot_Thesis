@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  21 MAR 2018 10:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.20)  24 MAR 2018 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2030,13 +2030,14 @@ File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 20.
  (./main.aux
-(./data/VRrobot.aux))
+(./data/VRrobot.aux) (./data/ack.aux) (./data/resume.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 20.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 20
 .
- (c:/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
+
+(c:/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -2140,19 +2141,19 @@ LaTeX Info: Redefining \nameref on input line 20.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * hratio: 1:1
 * modes: twoside 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(88.20355pt, 674.3303pt, 82.51299pt)
+* h-part:(L,W,R)=(91.04881pt, 415.41025pt, 91.04881pt)
+* v-part:(T,H,B)=(108.12048pt, 645.87755pt, 91.04881pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=674.3303pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-12.51917pt
+* \textwidth=415.41025pt
+* \textheight=645.87755pt
+* \oddsidemargin=18.77882pt
+* \evensidemargin=18.77882pt
+* \topmargin=7.39777pt
 * \headheight=14.22636pt
 * \headsep=14.22636pt
 * \topskip=12.0pt
-* \footskip=17.07164pt
+* \footskip=34.1433pt
 * \marginparwidth=0.0pt
 * \marginparsep=0.0pt
 * \columnsep=10.0pt
@@ -2169,7 +2170,41 @@ LaTeX Info: Redefining \nameref on input line 20.
 (./data/cover.tex)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 26.09749pt on input line 28.
-\g__fontspec_family_SimHei_int=\count332
+
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'LiSu' does not contain script 'CJK'.
+*************************************************
+\g__fontspec_family_LiSu_int=\count332
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "LiSu/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "LiSu/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "LiSu/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LiSu(0)' created for font 'LiSu' with options [Script={CJK}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"LiSu/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 36.135pt on input line 28.
+\g__fontspec_family_SimHei_int=\count333
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2185,12 +2220,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 . 
 . Could not resolve font "SimHei/I" (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 28.
- (c:/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.84042pt on input line 28.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2202,13 +2231,17 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 . - 'normal' (m/n) with NFSS spec.: <->"SimHei/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 23.48758pt on input line 28.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <36.135> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 36.135pt on input line 28.
+
+LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 28.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 18.06749pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 28.
-\g__fontspec_family_FangSong_GB2312_int=\count333
+\g__fontspec_family_FangSong_GB2312_int=\count334
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2236,9 +2269,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 . <->"FangSong_GB2312/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 16.06pt on input line 28.
 LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 2
 8.
-
 (c:/texlive/2017/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
@@ -2297,75 +2331,43 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 
 
 
-] [2
-
-
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 22.08249pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <22.08249> not availabl
-e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 22.08249pt on input line 28.
-LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <22.08249> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 19.8741pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 22.08249pt on input line 28.
-LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <16.06> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 14.45389pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.06pt on input line 28.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 14.45389pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 28.
- [3] [4
-
-
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.05249> not availabl
-e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 28.
-
-[5] [6
-
-
-]
-LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
-8.
- (c:/texlive/2017/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 28.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.045pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 28.
+ [2
+
+]
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 28.
+
+(c:/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 10.84042pt on input line 28.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 13.55052pt on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
+8.
+
+(c:/texlive/2017/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 28.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 28.
+(Font)              scaled to size 9.03374pt on input line 28.
  [1
+
 
 
 ]
@@ -2374,15 +2376,21 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
  [2
 
 
-]
-(./main.toc)
+] (./main.toc
+[3
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (./data/denotation.tex [3
+ (./data/denotation.tex [4]
+Underfull \hbox (badness 1072) in paragraph at lines 14--15
+[]\T1/ntxtlf/m/n/12.045 Compute Uni-fied De-vice Ar-chi-tec-ture\TU/SimSun(0)/m
+/n/12.045 ，|  统 一 计 算 架 构，|  由
+ []
 
-
-]) [4
+) [5
 
 
 ]
@@ -2404,20 +2412,27 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 12.64714pt on input line 21.
 File: figures/Cube.jpg Graphic file (type QTm)
 <use  "figures/Cube.jpg" >
+Overfull \hbox (4.41266pt too wide) in paragraph at lines 28--29
+ [][] 
+ []
+
 File: figures/Tri.jpg Graphic file (type QTm)
- <use  "figures/Tri.jpg" >
+<use  "figures/Tri.jpg" >
+Overfull \hbox (2.93594pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.52437pt on input line 40.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 40.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.03374pt on input line 40.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 45.
 File: figures/google-jump.jpg Graphic file (type QTm)
-
 <use  "figures/google-jump.jpg" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 47--48
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
@@ -2427,17 +2442,19 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 62.
 File: figures/movementPrime41_16.png Graphic file (type QTm)
  <use  "figures/movementPrime41_16.png" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 66--67
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
 [3]
 File: figures/T-HR3_2.jpg Graphic file (type QTm)
  <use  "figures/T-HR3_2.jpg" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 83--84
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
@@ -2445,7 +2462,7 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 83--84
 第3章
 File: figures/pic.pdf Graphic file (type QTm)
 <use  "figures/pic.pdf" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 100--101
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 100--101
  [][] 
  []
 
@@ -2456,19 +2473,19 @@ File: figures/HMD.jpg Graphic file (type QTm)
  <use  "figures/HMD.jpg" >
 File: figures/cardboard.png Graphic file (type QTm)
  <use  "figures/cardboard.png" >
-Overfull \hbox (22.42757pt too wide) in paragraph at lines 128--129
+Overfull \hbox (27.89044pt too wide) in paragraph at lines 128--129
  [][] 
  []
 
 File: figures/vive.PNG Graphic file (type QTm)
 <use  "figures/vive.PNG" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 146--147
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 146--147
  [][] 
  []
 
 [6] [7]
 第4章
-\g__fontspec_family_KaiTi_GB2312_int=\count334
+\g__fontspec_family_KaiTi_GB2312_int=\count335
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2498,7 +2515,7 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 146--147
 .................................................
 File: figures/ZED0.png Graphic file (type QTm)
 <use  "figures/ZED0.png" >
-Overfull \hbox (51.2286pt too wide) in paragraph at lines 163--164
+Overfull \hbox (56.69148pt too wide) in paragraph at lines 163--164
  [][] 
  []
 
@@ -2518,13 +2535,13 @@ File: figures/Dobot0.png Graphic file (type QTm)
 <use  "figures/Dobot0.png" >
 File: figures/Date.png Graphic file (type QTm)
  <use  "figures/Date.png" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 220--221
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
 File: figures/vivedobot.jpg Graphic file (type QTm)
 <use  "figures/vivedobot.jpg" >
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 232--233
+Overfull \hbox (39.83383pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
@@ -2548,49 +2565,106 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.07271pt on input line 290.
 File: figures/dobott.png Graphic file (type QTm)
 
-<use  "figures/dobott.png" >
+<use  "figures/dobott.png" > [13]
 File: figures/dobotg.pdf Graphic file (type QTm)
- <use  "figures/dobotg.pdf" > [13]
+ <use  "figures/dobotg.pdf" > [14]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 349.
- [14]
+ [15]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 392.
- [15]
 File: figures/NAO.jpg Graphic file (type QTm)
 
-<use  "figures/NAO.jpg" > [16] [17]
+<use  "figures/NAO.jpg" > [16] [17] [18]
 第6章
 File: figures/robotic_arm_large.jpg Graphic file (type QTm)
-<use  "figures/robotic_arm_large.jpg" >) [18
+<use  "figures/robotic_arm_large.jpg" >) [19
 
-] (./main.bbl
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 61.
-Missing character: There is no ™ in font ntx-Regular-tlf-t1!
-)
-\tf@thm=\write5
-\openout5 = `main.thm'.
+] [20] (./main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [19
+ [21
+
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (./main.aux
-(./data/VRrobot.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
+(./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [22
+
+
+] (./main.loe)
+\tf@loe=\write7
+\openout7 = `main.loe'.
+
+ (./main.bbl [23
+
+
+]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 61.
+Missing character: There is no ™ in font ntx-Regular-tlf-t1!
+) [24
+
+
+]
+\openout2 = `data/ack.aux'.
+
+ (./data/ack.tex
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 12.045pt on input line 6.
+
+
+Package natbib Warning: Citation `thuthesis' on page 25 undefined on input line
+ 6.
+
+[25
+
+
+
+]) [26
+
+
+]
+\openout2 = `data/resume.aux'.
+
+ (./data/resume.tex
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.05249pt on input line 3.
+ [27
+
+
+
+
+]) [28]
+\tf@thm=\write8
+\openout8 = `main.thm'.
+
+
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+(./main.aux (./data/VRrobot.aux) (./data/ack.aux) (./data/resume.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 68.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 34856 strings out of 493005
- 647748 string characters out of 6137955
- 696567 words of memory out of 5000000
- 38323 multiletter control sequences out of 15000+600000
- 133443 words of font info for 186 fonts, out of 8000000 for 9000
+ 34755 strings out of 493005
+ 639978 string characters out of 6137955
+ 699386 words of memory out of 5000000
+ 38200 multiletter control sequences out of 15000+600000
+ 114654 words of font info for 162 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  66i,12n,96p,10438b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (29 pages, 197920 bytes).
+Output written on main.xdv (35 pages, 249552 bytes).
